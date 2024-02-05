@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+   <category>
+      <pattern> Chamome * e son * </pattern>
+      <template>
+         Hola <star/> Muy amable  <star index="2"/>
+      </template>
+   </category>
+   <category>
+      <pattern> Chamome *</pattern>
+      <template> Hola <star/>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Hola</pattern>
+      <template>
+            <random>
+            <li> Ola! </li>
+            <li> Bo día </li>
+            </random>
+      </template>
+   </category>  
+</aiml>

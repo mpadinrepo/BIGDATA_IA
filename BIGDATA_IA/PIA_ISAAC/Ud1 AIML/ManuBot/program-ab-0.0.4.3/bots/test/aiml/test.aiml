@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="2">
+<category>
+      <pattern> OLA </pattern>
+      <template> Hola usuario, Como te chamas? </template>
+</category> 
+
+<category>
+      <pattern> Chamome *</pattern>
+      <template>
+         Hola <star/>
+      </template>
+</category>
+
+<category>
+   <pattern>Tengo * años</pattern>
+   <template>Gracias or la información 
+   </template>
+</category>
+
+
+<category>
+   <pattern>Necesito Ayuda</pattern>
+   <template>Necesitas notificar 1) incidencia 2) solicitud 3) reclamacion 
+   </template>
+</category>
+
+<category>
+      <pattern> 1 </pattern>
+      <template>Los datos de dept Soporte Tecnico es : XXXXXXXXX
+      </template>
+</category>
+
+<category>
+      <pattern> 2 </pattern>
+      <template>Los datos de dept Administración es : XXXXXXXXY
+      </template>
+</category>
+
+<category>
+      <pattern> 3 </pattern>
+      <template>Los datos de dept Quejas es : XXXXXXXXN
+      </template>
+</category>
+
+
+<category>
+      <pattern>Chamome *</pattern>
+      <template> Ola <set name = "username"> <star/></set>
+      </template>
+   </category>
+
+<category>
+      <pattern>Como me chamo</pattern>
+      <template> Antes me dixeches que <get name = "username"/>
+      </template>
+</category>
+
+
+<category>
+      <pattern>Hola</pattern>
+      <template>
+            <random>
+            <li> Ola! </li>
+            <li> Bo dia </li>
+            </random>
+      </template>
+</category>  
+
+</aiml>

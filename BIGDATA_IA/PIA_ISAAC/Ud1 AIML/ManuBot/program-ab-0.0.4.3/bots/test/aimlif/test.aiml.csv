@@ -1,0 +1,7 @@
+0,OLA,*,*,Hola usuario#Comma Como te llamas?,test.aiml
+0,ME LLAMO * Y SOY *,*,*,Hola <star/>. ¿Cuantos años tienes?  <star index="2"/>,test.aiml
+0,TENGO * AÑOS,*,*,Gracias or la información,test.aiml
+0,NECESITO AYUDA,*,*,Necesitas notificar 1) incidencia 2) solicitud 3) reclamacion,test.aiml
+0,1,*,*,Los datos de dept Soporte Tecnico es : XXXXXXXXX,test.aiml
+0,2,*,*,Los datos de dept Administración es : XXXXXXXXY,test.aiml
+0,3,*,*,Los datos de dept Quejas es : XXXXXXXXN,test.aiml

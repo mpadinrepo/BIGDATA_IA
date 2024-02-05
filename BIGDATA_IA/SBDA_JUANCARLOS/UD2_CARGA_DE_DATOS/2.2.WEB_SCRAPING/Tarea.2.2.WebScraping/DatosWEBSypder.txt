@@ -1,0 +1,128 @@
+FECHA:
+//span[@class="postdate old"]/span[@class="date"]/text()
+HORA:
+//span[@class="postdate old"]/span[@class="time"]/text()
+Contenido del post:
+//li[@class="postbitlegacy postbitim postcontainer old"]//div[@class="content"]/div[@id="post_message_624973"]/blockquote[@class="postcontent restore "]/text()
+
+
+
+
+
+#######################################################
+#######################################################
+#######################################################
+#######################################################
+#######################################################
+#######################################################
+
+Horizontal
+
+https://enpieycaminando.com/
+
+selector : #post-3601 > div > div > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-bf816a0.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div > div > h2:nth-child(1)
+
+XPATH :  //*[@id="post-3601"]/div/div/div/div/div/section[1]/div/div/div/div/div/div/div/h2[1]
+XPATH completo : /html/body/div[1]/main/article/div/div/div/div/div/section[1]/div/div/div/div/div/div/div/h2[1]
+
+https://www.sinhumo.net/#
+
+
+
+xPATH completo de la seccion de Lista de Productos que hay que recorrer articulo a articulo: /html/body/main/section/div/div[2]/section/section[2]/div[3]/div[1]/div
+selector de Lista de Productos que hay que recorrer uno a uno: #js-product-list
+copia acceso js : document.querySelector("#js-product-list")
+
+a nivel articulo XPATH completo para sacar el texto "precio": /html/body/main/section/div/div[2]/section/section[2]/div[3]/div[1]/div/div[1]/article[1]/div/div/div[3]
+a nivel articulo XPATH completo para sacar el texto "Nombre Articulo": /html/body/main/section/div/div[2]/section/section[2]/div[3]/div[1]/div/div[1]/article[1]/div/div/span
+
+
+SOLOIDA:CLICK
+https://www.atrapalo.com/?msclkid=876114739966117f349771dac0423529&utm_source=bing&utm_medium=cpc&utm_campaign=Brand&utm_term=atrapalo&utm_content=Brand&_gl=1*lqwvz*_up*MQ..*_ga*MTc1MDg2MjUxNS4xNzA1NTk3MjI3*_ga_ZE5JVN1PTM*MTcwNTU5NzIyNi4xLjAuMTcwNTU5NzIyNi4wLjAuMA..#
+//*[@id="ida"]
+
+te doy una ayuda para que me amplies el codigo y me hagas manejo de control de erroes y limite a 20 articulos el resultado por print
+
+primer punto: rellenar el campo input de texto con : VIGO 
+Origen VIGO
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[1]/div/div/div[3]/div/div[2]/div[1]/span[2]/div
+esta dentro de este codigo pero no lo veo bien :
+
+
+<label class="default-label" for-
+“origen_vue">Origen</label>
+"twitter-typeahead”
+‘position: relative; displa
+y: inline-block; direction: 1tr;">
+><svg class="clear_button”
+viewBox="@ 0 32 32" Fill="sreFFF
+#" style="display: nones">=
+</svg> == $0
+<input type="text" class="defaul
+‘teinput with-border tt-input™
+value placeholder="Ciudad de ori,
+gen” name="origen” data-model
+‘d="origen_vue" data-qa-ta-"orig
+inflight" autocomplete="off"
+spellcheck="false” dir="auto”
+style="position: relative; verti
+cal-align: middle;">
+<pre aria-hidden="true” style="p
+osition: absolute; visibility: h
+iden; white-space:
+><span clas:
+
+
+100%; left: px; z-index: 100; 4
+
+isplay: none; right: auto;
+</span>
+</span>
+
+segundo punto : 
+rellenar el campo input de texto con MADRID
+Destino MADRID
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[1]/div/div/div[3]/div/div[2]/div[1]/span[1]/div
+
+esta dentro de este codigo :
+
+<input type="text" class="defaul
+‘teinput with-border tt-input”
+placeholder="Ciudad de destino”
+name="destino” data-model value
+d="destino_vue" data-qa-ta="des
+tinationFlight™ autocomplete="oF
++" spellcheck="false" dir="auto”
+style="position: relative; verti
+cal-align: middle;"> == $0
+
+<pre aria-hidden="true” style="p
+osition: absolute; visibility: h
+idden; white-space: pres"></pre>
+><span class="tt-dropdown-menu”
+style="position: absolute; top:
+
+100%; left: px; z-index: 100; 4
+
+isplay: none; right: auto;
+</span>
+</span>
+pulsar el boton siguiente llamado "BOTON VER VUELO"
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[2]/div/div/button
+Esperar 10 segundos a que cargue la siguiente pagina y realizar la siguiente extraccion:
+
+como texto : HORASALIDA
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[1]/div/div/div[3]/div/div[2]/div[1]/span[1]/div/span
+como texto : HORALLEGADA
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[1]/div/div/div[3]/div/div[2]/div[3]/span[1]/div/span
+
+como texto : PRECIO 
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[2]/div/div/div/div/div/span
+
+como texto : AEROLINEA
+/html/body/div[1]/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div[3]/div[2]/div/div/a/div/div[1]/div/div/div[1]/div/span
+o 
+<span class="BpkText_bpk-text__MWZkY BpkText_bpk-text--xs__ZDJmY">&nbsp;Air Europa</span>
+
+
+
