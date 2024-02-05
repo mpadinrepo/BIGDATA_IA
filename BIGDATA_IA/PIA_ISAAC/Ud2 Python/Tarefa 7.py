@@ -1,0 +1,5 @@
+nombrecompleto= str(input ("Digame su nombre"))
+nombreupper= str(nombrecompleto.upper())
+caracteres=len(nombrecompleto)
+print ("El nombre en mayusculas es :", nombreupper)
+print ((len(nombrecompleto)),"es el numero de letras que tiene el nombre")

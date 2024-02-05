@@ -1,0 +1,76 @@
+core-site.xml
+
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://localhost:9000</value>
+		<description>URI para acceder ó servizo HDFS na máquina local polo porto especificado</description>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/mnt/discogrande/hadoop/tmp</value>
+		<description>Directorio para datos temporais</description>
+	</property>
+
+
+	
+hdfs-site.xml
+
+	<property>
+		<name>dfs.replication</name>
+		<value>1</value>
+		<description>Valor do factor de replicación de cada bloque de datos</description>
+	</property>
+	
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>/mnt/discogrande/hadoop/data</value>
+		<description>Directorio (ou directorios separados por comas) no que os datanodes almacenan os bloques de datos a tratar</description>
+	</property>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/mnt/discogrande/hadoop/name</value>
+		<description>Directorio para os metadatos almacenados no namenode</description>
+	</property>
+	<property>
+		<name>dfs.namenode.checkpoint.dir</name>
+		<value>/mnt/discogrande/hadoop/namesecondary</value>
+		<description>Directorio (ou directorios separados por comas) no que os Secondary Name Nodes gardan os “checkpoints”</description>
+	</property>
+	<property>
+		<name>dfs.permissions.enabled</name>
+		<value>false</value>
+	</property>
+	
+	
+mapred-site.xml
+
+	<property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property>
+	<property>
+		<name>mapreduce.application.classpath</name>
+		<value>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*</value>
+	</property>
+
+
+
+yarn-site.xml
+
+
+	<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+	</property>
+	<property>
+		<name>yarn.nodemanager.env-whitelist</name>
+		<value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PREPEND_DISTCACHE,HADOOP_YARN_HOME,HADOOP_HOME,PATH,LANG,TZ,HADOOP_MAPRED_HOME</value>
+	</property>
+	
+	
+workers
+
+localhost
+
+
+

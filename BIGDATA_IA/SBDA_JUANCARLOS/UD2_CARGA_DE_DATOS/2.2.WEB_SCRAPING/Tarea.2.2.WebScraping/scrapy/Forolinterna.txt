@@ -1,0 +1,36 @@
+bre una terminal o símbolo del sistema.
+Navega al directorio que contiene tu spider. Puedes usar el comando cd para cambiar al directorio correspondiente. Por ejemplo:
+
+cd ~/LUDOPATIA/LUDOPATIA$ 
+
+Ejecuta el spider con el siguiente comando:
+scrapy runspider ludopatia_spider.py
+
+Asegúrate de que el nombre del archivo coincida con el nombre que le diste a tu spider y que estás en el directorio correcto.
+
+El spider debería comenzar a extraer datos del sitio web. Ten en cuenta que, si tienes configurada la salida predeterminada de Scrapy, los datos se imprimirán en la terminal. Si deseas guardar los datos en un archivo, puedes redirigir la salida a un archivo CSV con el siguiente comando:
+scrapy runspider ludopatia_spider.py -o resultados.csv
+scrapy genspider ludopatia_spider example.com
+
+Ludopatia:
+/html/body/div/div[2]/div/div/div/div/div[4]/div[4]/div/div[2]/div[3]/div[1]/h3/a
+
+Fecha y hora:
+/html/body/div/div[2]/div/div/div/div/div[4]/div[4]/div/div[1]/div[1]
+
+Contenido1:
+/html/body/div/div[2]/div/div/div/div/div[4]/div[4]/div/div[2]/div[3]/div[1]/div
+
+
+General comentarios:
+/html/body/div/div[2]/div/div/div/div/div[4]/div[6]/div/div[2]/div[3]/div[1]/div
+
+
+Comentarios1
+/html/body/div/div[2]/div/div/div/div/div[4]/div[5]/div/div[2]/div[3]/div[1]/div[1]
+
+Comentarios2
+/html/body/div/div[2]/div/div/div/div/div[4]/div[6]/div/div[2]/div[3]/div[1]/div/blockquote
+
+comentarios 3
+/html/body/div/div[2]/div/div/div/div/div[4]/div[7]/div/div[2]/div[3]/div[1]/h3

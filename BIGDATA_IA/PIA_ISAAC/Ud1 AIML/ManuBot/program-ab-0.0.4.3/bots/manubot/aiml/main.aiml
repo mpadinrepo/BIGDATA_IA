@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hola</pattern>
+    <template>
+        <random>
+            <li>Hola como se llama</li>
+            <li>Buenas tardes como se llama</li>
+            <li>Encantado como se llama</li>
+            <li>Me puede indicar su nombre para poder dirigirme a usted</li>
+            <li>A sus ordenes como se llama</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+        <pattern>Me llamo *</pattern>
+        <template>Encantado <set name = "username"> <star/></set></template>
+   </category>
+  
+    <category>
+        <pattern> Como me llamo </pattern>
+        <template> Recuerdo que me has dicho antes que te llamabas <get name = "username"/></template>
+    </category>
+    
+  
+  
+    <category>
+        <pattern> Tengo * años </pattern>
+        <template>Que joven y gracias por la informacion <set name = "edad"> <star/></set></template>
+    </category>
+  
+  
+    <category>
+        <pattern> Que edad tengo </pattern>
+        <template> Recuerdo que me has dicho antes <get name = "edad"/> años </template>
+    </category>
+  
+  
+</aiml>
