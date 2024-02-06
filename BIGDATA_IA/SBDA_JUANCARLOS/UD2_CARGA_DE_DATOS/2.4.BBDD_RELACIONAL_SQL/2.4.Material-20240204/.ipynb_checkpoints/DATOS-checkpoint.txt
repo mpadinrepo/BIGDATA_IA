@@ -1,0 +1,59 @@
+PS C:\Users\VORPC> docker ps
+CONTAINER ID   IMAGE                              COMMAND                  CREATED          STATUS
+    PORTS                    NAMES
+998ad0c8faf4   jupyter/datascience-notebook       "tini -g -- start-no…"   3 minutes ago    Up 3 minutes (healthy)          8888/tcp                 gallant_haslett
+8e7b6b0e62d8   jupyter/scipy-notebook:lab-4.0.7   "tini -g -- start-no…"   4 minutes ago    Up 4 minutes (healthy)          8888/tcp                 adoring_mendeleev
+32c5d2fd79a0   jupyter/datascience-notebook       "tini -g -- start-no…"   34 minutes ago   Up 5 minutes (healthy)          0.0.0.0:8888->8888/tcp   dockercompose-jupyter-1
+20b8929cf146   mysql                              "docker-entrypoint.s…"   34 minutes ago   Restarting (1) 14 seconds ago                            dockercompose-mysql-1
+c0e1943a1c4b   mariadb                            "docker-entrypoint.s…"   34 minutes ago   Up 5 minutes
+    3306/tcp                 dockercompose-mariadb-1
+PS C:\Users\VORPC>
+
+
+
+docker exec -it jupyter/scipy-notebook:lab-4.0.7 bash
+
+
+usermod -l mpadin jovyan
+
+
+mv /home/jovyan /home/mpadin
+
+
+groupmod -n mpadin jovyan
+
+
+sed -i 's/jovyan/mpadin/g' /etc/passwd
+
+
+docker-compose down
+docker-compose up -d
+
+
+usermod -l mpadin jovyan
+mv /home/jovyan /home/mpadin_temp
+usermod -l mpadin mpadin_temp
+mv /home/mpadin_tmp /home/mpadin
+
+
+
+
+mysql -h 172.19.0.1 -P 3306 -u
+
+
+C:\Users\VORPC\Documents\BigdataMaterial\SBDA_JUANCARLOS\UD2_CARGA_DE_DATOS\2.4.BBDD_RELACIONAL_SQL\2.4. Material-20240204
+
+
+docker cp C:\Users\VORPC\Documents\BigdataMaterial\SBDA_JUANCARLOS\UD2_CARGA_DE_DATOS\2.4.BBDD_RELACIONAL_SQL\2.4.Material-20240204/carga_bbdd.sql dockercompose-mysql-1:/carga_bbdd.sql
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'abc123...' WITH GRANT OPTION;FLUSH PRIVILEGES;
+
+
+ALTER USER 'root'@'172.28.0.2' IDENTIFIED BY abc123...
+FLUSH PRIVILEGES;
+
+
+ckercompose-mysql-1
+172.28.0.2
+PS C:\Users\VORPC\Documents\BigdataMaterial\DockerCompose>
+
