@@ -27,3 +27,8 @@ apellido2capitalize=str(apellido2.capitalize())
 print (nombreupper,apellido1upper,apellido2upper)
 print (nombrelower,apellido1lower,apellido2lower)
 print (nombrecapitalize,apellido1capitalize,apellido2capitalize)
+
+
+cd L:\REPOLOCAL\BIGDATA_IA\PIA_ISAAC\Ud2 Python\TarefasRev1
+
+for /l %i in (1,1,60) do mkdir Tarefa%i
