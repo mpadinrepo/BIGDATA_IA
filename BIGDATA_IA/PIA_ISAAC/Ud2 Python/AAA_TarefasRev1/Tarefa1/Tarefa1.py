@@ -1,3 +1,3 @@
-# Archivo de código para Tarefa 1
-# Coloque aquí el código para la Tarefa 1
-print("Código para Tarefa 1")
+""" Escribir un programa que mostre por pantalla a cadea Ola Mundo!. """
+
+print ("Hola Mundo")
