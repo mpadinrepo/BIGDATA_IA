@@ -1,3 +1,8 @@
-# Archivo de código para Tarefa 2
-# Coloque aquí el código para la Tarefa 2
-print("Código para Tarefa 2")
+""" Tarefa 2
+Escribir un programa que almacene a cadea Ola Mundo! nunha variable
+ e logo mostre por pantalla o contido da variable.
+Para poder ler algo do teclado se Ãºtiliza a funciÃ³n input() """
+
+frase = input("escribe ")
+frase2 = ("Hola Mundo")
+print ("output : ",frase,frase2)
