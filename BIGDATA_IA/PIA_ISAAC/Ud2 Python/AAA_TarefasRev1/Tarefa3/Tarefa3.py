@@ -1,3 +1,7 @@
-# Archivo de código para Tarefa 3
-# Coloque aquí el código para la Tarefa 3
-print("Código para Tarefa 3")
+""" Tarefa 3
+Escribir un programa que pregunte o nome do usuario na consola
+ e despois de que o usuario o introduza mostre por pantalla
+ a cadea Ola <usuario>!, onde  <usuario> Ã© o nome que o usuario introducise. """
+
+pregunta = input ("Escriba su nombre")
+print ("Ola",pregunta,"!")
