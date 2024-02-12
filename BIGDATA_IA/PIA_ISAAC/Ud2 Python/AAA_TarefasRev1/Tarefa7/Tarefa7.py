@@ -1,3 +1,10 @@
-# Archivo de cÛdigo para Tarefa 7
-# Coloque aquÌ el cÛdigo para la Tarefa 7
-print("CÛdigo para Tarefa 7")
+""" Tarefa 7
+Escribir un programa que pregunte o nome do usuario na consola
+e despois de que o usuario introd√∫zao
+mostre por pantalla <usuario> ten < n> letras, 
+onde  √© o nome de usuario en mai√∫sculas e < n> √© o n√∫mero de letras que te√±en o nome. """
+
+
+
+nombre = input ("Por favor escriba su nombre: ")
+print (nombre + " tiene", len(nombre) , "letras")
