@@ -11,3 +11,14 @@ print("El resultado del calculo de cuadrante es: ")
 
 if x>0 and y>0:
     print("Primer cuadrante")
+else:
+    if x<0 and y>0:
+        print("Segundo Cuadrante")
+    else:
+        if x<0 and y<0:
+            print ("Tercer Cuadrante")
+        else:
+            if x>0 and y<0:
+                print ("Cuarto cuadrante")
+            else:
+                print("Se encuentra sobre un EJE")
