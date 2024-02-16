@@ -6,7 +6,7 @@ x=1
 n= int(input ="Cuantas personas vas a procesar:")
 suma=0
 while x <= n:
-    altura = input = int(print="Ingrese el valor de altura: ")
+    altura = int (input = ("Ingrese el valor de altura: "))
     suma = suma + altura
     x = x + 1
 promedio = suma
