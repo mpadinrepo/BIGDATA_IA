@@ -32,13 +32,15 @@ Algúns DNI con letra para que fagas probas: 65004204V, 30022846A
 Nos ficheiros que acompañan a proba tes unha lista de tuplas, onde
 o primeiro elemento e o resto, e o segundo e a letra maiúscula que
 lle toca.
-"""
+""" """
 
 dninumero = int(input("Ingrese numero de DNI: "))
 # numcaracteres = len(dninumero)
 # print (numcaracteres)
 # suma = sum(dninumero)
 # print (suma)
+
+ """
 
 
 
@@ -50,7 +52,7 @@ def validacionDNI(dninumero):
     else:
         if len(dninumero)>9:
             print ("Número de DNI no válido: Longitud inválida")
-        else
+        else:
     # Verificar caracteres válidos
     if not dninumero.isdigit():
         raise ValueError("Número de DNI no válido: Caracteres no válidos")
