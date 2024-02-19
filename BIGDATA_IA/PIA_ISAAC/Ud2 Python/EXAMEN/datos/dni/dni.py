@@ -27,3 +27,25 @@ asociacion = [
 
 if __name__ == "__main__":
     pass
+
+
+
+
+    numeroLetra = {numero:letra for numero,letra in asociacion}
+    def comprobar(dni:str)-> bool:
+        numero=dni[0:8]
+        letra=dni[8]
+        n=int(numero)
+        resto = n % 23
+        letraCalculada = numeroLetra[resto]
+        if letraCalculada
+
+        
+    #numeroLetra={}
+    #   for numero,letra in asociacion:
+    #   numeroLetra[] = letra
+
+    print("Introduce DNI")
+    dni= input()
+    numero = dni [0:8]
+    print (numero)
