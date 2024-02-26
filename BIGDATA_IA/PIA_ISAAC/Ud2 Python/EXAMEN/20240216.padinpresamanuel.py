@@ -54,8 +54,7 @@ def validacionDNI(dninumero):
             print ("Número de DNI no válido: Longitud inválida")
         else:
     # Verificar caracteres válidos
-    if not dninumero.isdigit():
-        raise ValueError("Número de DNI no válido: Caracteres no válidos")
+            if not dninumero.isdigit():
     # Sumar todos los dígitos
     suma_digitos = sum(dninumero)
     # Verificar si la suma es divisible por 23
