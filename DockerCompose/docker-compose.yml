@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  jupyterlab:
+    image: jupyter/datascience-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - /media/DIURNO/CURSO/MPADINREPOSITORIO:/home/jovyan/work
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: abc123...
+      MYSQL_DATABASE: db
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: abc123...
+    ports:
+      - "3306:3306"
+
+  mariadb:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: examplepassword
+      MYSQL_DATABASE: db
+      MYSQL_USER: mariadbuser
+      MYSQL_PASSWORD: abc123...
+    ports:
+      - "3307:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: abc123...
+

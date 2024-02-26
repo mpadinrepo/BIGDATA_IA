@@ -1,0 +1,5 @@
+sudo docker-compose logs jupyterlab
+
+
+#http://127.0.0.1:8888/lab?token=e1a1a5a735ce26a4471dcc246b00b1eeb3a396cdaa0ef48c
+

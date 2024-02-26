@@ -1,0 +1,313 @@
+ID Pedido,ID Factura,Comercio,Ciudad,Tipo cliente,Sexo,Línea de negocio,Precio Unitario,Cantidad,Total,IVA,Fecha,Pago
+#El siguiente dataset contiene las ventas del grupo de empresas
+#Cada pedido puede incluir compras a distintos negocios, por lo que cada uno tiene su propio ID de factura
+######################Inicio del resumen de compras#################
+56904,56904-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"431,569826004199",42,"18125,9326921764","3806,44586535703",25/09/73,Tarjeta crédito
+56904,56904-C2,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"427,753653339589",32,"13688,1169068669","2874,50455044204",25/09/73,Tarjeta crédito
+56904,56904-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"125,119713221405",55,"6881,58422717729","1445,13268770723",25/09/73,Tarjeta crédito
+56904,56904-C4,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"499,885503285254",35,"17495,9926149839","3674,15844914662",25/09/73,Tarjeta crédito
+56904,56904-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"216,976405127412",8,"1735,81124101929","364,520360614051",25/09/73,Tarjeta crédito
+56904,56904-C6,El Primero,Vigo,Existente,Mujer,Supermercado,"823,8719318745",58,"47784,572048721","10034,7601302314",25/09/73,Tarjeta crédito
+84698,84698-C1,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"166,725150213652",2,"333,450300427305","70,024563089734",20/10/87,Transferencia bancaria
+14325,14325-C1,Mercería Coso,A Coruña,Existente,Mujer,Otros,"236,181858592812",95,"22437,2765663172","4711,82807892661",03/05/01,Efectivo
+14325,14325-C2,El Caro,Nigrán,Existente,Mujer,Cocinas,"651,887463764996",83,"54106,6594924947","11362,3984934239",03/05/01,Efectivo
+14325,14325-C3,El Caro,Nigrán,Existente,Mujer,Cocinas,"626,448550459546",75,"46983,641284466","9866,56466973785",03/05/01,Efectivo
+68893,68893-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"904,67007664821",13,"11760,7109964267","2469,74930924961",22/11/72,Transferencia bancaria
+68893,68893-C2,El Primero,Vigo,Existente,Mujer,Supermercado,"84,363763337653",68,"5736,73590696041","1204,71454046169",22/11/72,Transferencia bancaria
+68893,68893-C3,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"954,491976191295",24,"22907,8074285911","4810,63956000413",22/11/72,Transferencia bancaria
+68893,68893-C4,El Caro,Nigrán,Existente,Mujer,Cocinas,"283,583805500163",23,"6522,42752650376","1369,70978056579",22/11/72,Transferencia bancaria
+68893,68893-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"969,135839982456",31,"30043,2110394561","6309,07431828579",22/11/72,Transferencia bancaria
+72994,72994-C1,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"327,055085350143",22,"7195,21187770314","1510,99449431766",07/01/99,Tarjeta crédito
+72994,72994-C2,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"762,975902204482",91,"69430,8071006079","14580,4694911277",07/01/99,Tarjeta crédito
+72994,72994-C3,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"186,744086446674",63,"11764,8774461405","2470,6242636895",07/01/99,Tarjeta crédito
+72994,72994-C4,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"963,763785404542",1,"963,763785404542","202,390394934954",07/01/99,Tarjeta crédito
+72994,72994-C5,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"14,2490944589197",25,"356,227361472994","74,8077459093287",07/01/99,Tarjeta crédito
+72994,72994-C6,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"254,733299593277",21,"5349,39929145883","1123,37385120635",07/01/99,Tarjeta crédito
+82407,82407-C1,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"607,40349731584",14,"8503,64896242176","1785,76628210857",30/04/02,Transferencia bancaria
+82407,82407-C2,El Primero,Vigo,Nuevo,Mujer,Supermercado,"972,697430345785",43,"41825,9895048688","8783,45779602244",30/04/02,Transferencia bancaria
+74285,74285-C1,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"174,412855562763",31,,"1135,42768971359",13/09/94,Transferencia bancaria
+5364,5364-C1,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"695,340866605671",61,"42415,7928629459","8907,31650121864",11/12/84,Efectivo
+5364,5364-C2,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"492,759192853934",24,"11826,2206284944","2483,50633198383",11/12/84,Efectivo
+5364,5364-C3,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"799,474150698548",44,"35176,8626307361","7387,14115245458",11/12/84,Efectivo
+5364,5364-C4,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"224,97822545526",98,"22047,8660946155","4630,05187986926",11/12/84,Efectivo
+80407,80407-C1,El Primero,Vigo,Existente,Mujer,Supermercado,"477,10559440991",93,"44370,8202801216","9317,87225882554",07/08/96,Efectivo
+80407,80407-C2,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"435,734376023306",96,"41830,5000982373","8784,40502062984",07/08/96,Efectivo
+80407,80407-C3,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"582,774688318463",41,"23893,762221057","5017,69006642197",07/08/96,Efectivo
+80407,80407-C4,El Caro,Nigrán,Existente,Mujer,Cocinas,"782,66852851259",52,"40698,7634826547","8546,74033135748",07/08/96,Efectivo
+80407,80407-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"651,704094852363",47,"30630,092458061","6432,31941619282",07/08/96,Efectivo
+18447,18447-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"437,568707743857",80,"35005,4966195085","7351,15429009679",17/10/97,Efectivo
+18447,18447-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"441,953788854247",64,"28285,0424866718","5939,85892220107",17/10/97,Efectivo
+18447,18447-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"603,751120860034",82,"49507,5919105228","10396,5943012098",17/10/97,Efectivo
+76092,76092-C1,El Caro,Nigrán,Existente,Hombre,Cocinas,"791,464922075384",53,"41947,6408699954","8809,00458269903",19/11/04,Transferencia bancaria
+60659,60659-C1,El Caro,Nigrán,Existente,Mujer,Cocinas,"471,355157304607",42,"19796,9166067935","4157,35248742664",25/12/79,Efectivo
+60659,60659-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"590,563778895589",33,"19488,6047035545","4092,60698774644",25/12/79,Efectivo
+60659,60659-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"743,136163313075",12,"8917,6339597569","1872,70313154895",25/12/79,Efectivo
+60659,60659-C4,Mercería Coso,A Coruña,Existente,Mujer,Otros,"702,203332708526",15,"10533,0499906279","2211,94049803186",25/12/79,Efectivo
+60659,60659-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"924,478380984655",98,"90598,8813364962","19025,7650806642",25/12/79,Efectivo
+44964,44964-C1,El Caro,Nigrán,Existente,Mujer,Cocinas,"450,140137502429",96,"43213,4532002332","9074,82517204898",01/08/02,Transferencia bancaria
+44964,44964-C2,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"881,867749901",1,"881,867749901","185,19222747921",01/08/02,Transferencia bancaria
+44964,44964-C3,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"734,179997105796",62,"45519,1598205594","9559,02356231747",01/08/02,Transferencia bancaria
+87871,87871-C1,Mercería Coso,A Coruña,,Hombre,Otros,"316,640833848965",74,"23431,4217048234","4920,59855801291",08/07/92,Transferencia bancaria
+87871,87871-C2,Perfumes Olorosos,Vigo,,Hombre,Belleza y perfumería,"564,144636011926",10,"5641,44636011926","1184,70373562504",08/07/92,Transferencia bancaria
+86276,86276-C1,El Primero,Vigo,Existente,Hombre,Supermercado,"497,673613772662",46,"22892,9862335425","4807,52710904391",12/02/04,Transferencia bancaria
+86276,86276-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"846,164165449938",68,"57539,1632505958","12083,2242826251",12/02/04,Transferencia bancaria
+86276,86276-C3,El Primero,Vigo,Existente,Hombre,Supermercado,"899,785129760723",79,"71083,0252510971","14927,4353027304",12/02/04,Transferencia bancaria
+80407,80407-C4,El Caro,Nigrán,Existente,Mujer,Cocinas,"782,66852851259",52,"40698,7634826547","8546,74033135748",07/08/96,Efectivo
+86276,86276-C4,El Caro,Nigrán,Existente,Hombre,Cocinas,"55,7307753799178",3,"167,192326139753","35,1103884893482",12/02/04,Transferencia bancaria
+86276,86276-C5,Mercería Coso,A Coruña,Existente,Hombre,Otros,"605,975032234895",58,"35146,5518696239","7380,77589262103",12/02/04,Transferencia bancaria
+98183,98183-C1,El Primero,Vigo,Nuevo,Hombre,Supermercado,"449,424474995222",41,"18426,4034748041","3869,54472970886",01/07/70,Efectivo
+98183,98183-C2,El Primero,Vigo,Nuevo,Hombre,Supermercado,"927,798375139287",60,"55667,9025083572","11690,259526755",01/07/70,Efectivo
+98183,98183-C3,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"488,711280330877",78,"38119,4798658084","8005,09077181976",01/07/70,Efectivo
+98183,98183-C4,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"793,989024589131",63,"50021,3085491153","10504,4747953142",01/07/70,Efectivo
+98183,98183-C5,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"268,401883359594",25,"6710,04708398985","1409,10988763787",01/07/70,Efectivo
+98183,98183-C6,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"832,881005428897",65,"54137,2653528783","11368,8257241044",01/07/70,Efectivo
+71938,71938-C1,Mercería Coso,A Coruña,Existente,,Otros,"624,462693752057",12,"7493,55232502469","1573,64598825518",27/01/75,Transferencia bancaria
+71938,71938-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"891,711182301013",67,"59744,6492141679","12546,3763349753",27/01/75,Transferencia bancaria
+71938,71938-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"72,4730878824797",8,"579,784703059837","121,754787642566",27/01/75,Transferencia bancaria
+71938,71938-C4,Mercería Coso,A Coruña,Existente,Mujer,Otros,"979,087835407915",24,"23498,10804979","4934,60269045589",27/01/75,Transferencia bancaria
+71938,71938-C5,Mercería Coso,A Coruña,Existente,Mujer,Otros,"528,990902195788",72,"38087,3449580967","7998,34244120031",27/01/75,Transferencia bancaria
+71938,71938-C6,El Primero,Vigo,Existente,Mujer,Supermercado,"724,247270767442",78,"56491,2871198605","11863,1702951707",27/01/75,Transferencia bancaria
+96811,96811-C1,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"706,806195239006",83,"58664,9142048375","12319,6319830159",30/04/95,Efectivo
+12573,12573-C1,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"357,018897702458",53,"18922,0015782303","3973,62033142836",07/09/94,Transferencia bancaria
+12573,12573-C2,El Primero,Vigo,Nuevo,Mujer,Supermercado,"171,66632682115",77,"13218,3071652285","2775,844504698",07/09/94,Transferencia bancaria
+12573,12573-C3,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"331,396785285751",89,"29494,3138904318","6193,80591699068",07/09/94,Transferencia bancaria
+12573,12573-C4,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"221,962642855716",29,"6436,91664281578","1351,75249499131",07/09/94,Transferencia bancaria
+12573,12573-C5,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"261,574009270179",98,"25634,2529084776","5383,19311078029",07/09/94,Transferencia bancaria
+12573,12573-C6,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"166,830760102002",25,"4170,76900255005","875,861490535511",07/09/94,Transferencia bancaria
+31349,31349-C1,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"245,144244334356",32,"7844,6158186994","1647,36932192687",06/01/90,Tarjeta crédito
+31349,31349-C2,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"634,475497035016",58,"36799,578828031","7727,9115538865",06/01/90,Tarjeta crédito
+31349,31349-C3,El Caro,Nigrán,Existente,Hombre,Cocinas,"431,529572448958",31,"13377,4167459177","2809,25751664271",06/01/90,Tarjeta crédito
+31349,31349-C4,El Caro,Nigrán,Existente,Hombre,Cocinas,"348,612526696113",98,"34164,027616219","7174,445799406",06/01/90,Tarjeta crédito
+31349,31349-C5,El Primero,Vigo,Existente,Hombre,Supermercado,"376,037468726075",80,"30082,997498086","6317,42947459806",06/01/90,Tarjeta crédito
+31349,31349-C6,El Primero,Vigo,Existente,Hombre,Supermercado,"290,638089696287",55,"15985,0949332958","3356,86993599211",06/01/90,Tarjeta crédito
+23052,23052-C1,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,,32,,,12/02/75,Transferencia bancaria
+28324,28324-C1,El Primero,Vigo,Existente,Hombre,Supermercado,"824,502612155681",26,"21437,0679160477","4501,78426237002",29/10/91,Transferencia bancaria
+28324,28324-C2,El Caro,Nigrán,Existente,Hombre,Cocinas,"877,293305303154",34,"29827,9723803072","6263,87419986452",29/10/91,Transferencia bancaria
+28324,28324-C3,Mercería Coso,A Coruña,Existente,Hombre,Otros,"45,3726167147516",79,"3584,43672046537","752,731711297728",29/10/91,Transferencia bancaria
+28324,28324-C4,El Primero,Vigo,Existente,Hombre,Supermercado,"914,693309257412",52,"47564,0520813854","9988,45093709094",29/10/91,Transferencia bancaria
+28324,28324-C5,El Primero,Vigo,Existente,Hombre,Supermercado,"590,446892680506",58,"34245,9197754693","7191,64315284856",29/10/91,Transferencia bancaria
+78031,78031-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"440,631949737899",29,"12778,3265423991","2683,4485739038",13/11/83,Transferencia bancaria
+78031,78031-C2,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"854,439784614579",44,"37595,3505230415","7895,02360983871",13/11/83,Transferencia bancaria
+38805,38805-C1,Mercería Coso,A Coruña,Existente,Mujer,Otros,"733,09824992159",80,"58647,8599937272","12316,0505986827",07/02/83,Transferencia bancaria
+38805,38805-C2,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"822,303752043332",61,"50160,5288746432","10533,7110636751",07/02/83,Transferencia bancaria
+38805,38805-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"752,103973033791",18,"13537,8715146082","2842,95301806773",07/02/83,Transferencia bancaria
+38805,38805-C4,El Primero,Vigo,Existente,Mujer,Supermercado,"694,020388476886",86,"59685,7534090122","12534,0082158926",07/02/83,Transferencia bancaria
+38805,38805-C5,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"784,874736361824",44,"34534,4883999203","7252,24256398326",07/02/83,Transferencia bancaria
+55280,55280-C1,El Caro,Nigrán,Existente,Hombre,Cocinas,"71,0204954153742",48,"3408,98377993796","715,886593786972",18/03/97,Efectivo
+55280,55280-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"323,165788021541",40,"12926,6315208616","2714,59261938095",18/03/97,Efectivo
+55280,55280-C3,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"387,141440227937",14,"5419,98016319111","1138,19583427013",18/03/97,Efectivo
+55280,55280-C4,El Primero,Vigo,Existente,Hombre,Supermercado,"586,17904397743",56,"32826,0264627361","6893,46555717458",18/03/97,Efectivo
+55280,55280-C5,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"32,0073030785991",77,"2464,56233705213","517,558090780947",18/03/97,Efectivo
+55280,55280-C6,El Caro,Nigrán,Existente,Hombre,Cocinas,"507,201750104997",42,"21302,4735044099","4473,51943592608",18/03/97,Efectivo
+78844,78844-C1,Mercería Coso,A Coruña,Existente,Hombre,Otros,"536,679184902374",46,"24687,2425055092","5184,32092615693",24/10/98,Transferencia bancaria
+78844,78844-C2,El Primero,Vigo,Existente,Hombre,Supermercado,"51,0945303276951",34,"1737,21403114163","364,814946539743",24/10/98,Transferencia bancaria
+78844,78844-C3,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"73,0452756762165",5,"365,226378381082","76,6975394600273",24/10/98,Transferencia bancaria
+78844,78844-C4,Mercería Coso,A Coruña,Existente,Hombre,Otros,"516,140673604588",89,"45936,5199508083","9646,66918966974",24/10/98,Transferencia bancaria
+28966,28966-C1,Mercería Coso,A Coruña,Existente,Hombre,Otros,"116,84274013668",88,"10282,1611320278","2159,25383772585",24/04/87,Transferencia bancaria
+28966,28966-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"481,295281295738",45,"21658,2876583082","4548,24040824473",24/04/87,Transferencia bancaria
+28966,28966-C3,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"883,746022785531",92,"81304,6340962689","17073,9731602165",24/04/87,Transferencia bancaria
+18447,18447-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"437,568707743857",80,"35005,4966195085","7351,15429009679",17/10/97,Efectivo
+28966,28966-C4,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"60,1428849149423",77,"4631,00213845056","972,510449074617",24/04/87,Transferencia bancaria
+28966,28966-C5,Mercería Coso,A Coruña,Existente,Hombre,Otros,"444,139580536416",77,"34198,747701304","7181,73701727385",24/04/87,Transferencia bancaria
+44903,44903-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"88,2575897748015",28,"2471,21251369444","518,954627875833",10/08/03,Efectivo
+44903,44903-C2,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"467,869643737102",58,"27136,4393367519","5698,6522607179",10/08/03,Efectivo
+44903,44903-C3,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"889,082604971835",75,"66681,1953728876","14003,0510283064",10/08/03,Efectivo
+44903,44903-C4,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"673,680775173937",30,"20210,4232552181","4244,18888359581",10/08/03,Efectivo
+44903,44903-C5,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"408,712166280518",5,"2043,56083140259","429,147774594544",10/08/03,Efectivo
+44903,44903-C6,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"186,911399946245",17,"3177,49379908617","667,273697808095",10/08/03,Efectivo
+34175,34175-C1,El Primero,Vigo,Nuevo,Mujer,Supermercado,"151,951593266447",73,"11092,4663084506","2329,41792477463",22/02/92,Efectivo
+34175,34175-C2,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"828,104808866829",89,"73701,3279891478","15477,278877721",22/02/92,Efectivo
+34175,34175-C3,El Primero,Vigo,Nuevo,Mujer,Supermercado,"82,2431225910097",78,"6414,96356209876","1347,14234804074",22/02/92,Efectivo
+34175,34175-C4,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"180,614377504269",73,"13184,8495578116","2768,81840714044",22/02/92,Efectivo
+34175,34175-C5,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"951,077367739894",87,"82743,7309933708","17376,1835086079",22/02/92,Efectivo
+77345,77345-C1,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"318,362271222146",51,"16236,4758323295","3409,65992478919",28/05/75,Tarjeta crédito
+77345,77345-C2,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"660,65690238235",54,"35675,4727286469","7491,84927301585",28/05/75,Tarjeta crédito
+77345,77345-C3,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"897,629172007438",50,"44881,4586003719","9425,10630607809",28/05/75,Tarjeta crédito
+3800,3800-C1,Mercería Coso,A Coruña,Existente,Hombre,Otros,"492,652896486584",70,"34485,7027540609","7241,99757835279",15/04/90,Tarjeta crédito
+3800,3800-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"109,33058488102",29,"3170,58696154957","665,823261925409",15/04/90,Tarjeta crédito
+3800,3800-C3,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"187,508077536563",93,"17438,2512109003","3662,03275428907",15/04/90,Tarjeta crédito
+3800,3800-C4,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"762,319599015257",58,"44214,5367428849","9285,05271600583",15/04/90,Tarjeta crédito
+3800,3800-C5,El Caro,Nigrán,Existente,Hombre,Cocinas,"128,651004866244",72,"9262,87235036957","1945,20319357761",15/04/90,Tarjeta crédito
+71084,71084-C1,El Primero,Vigo,Existente,Hombre,Supermercado,"949,38270205054",72,"68355,5545476389","14354,6664550042",26/03/02,Efectivo
+71084,71084-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"677,96614123303",97,"65762,7156996039","13810,1702969168",26/03/02,Efectivo
+71084,71084-C3,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"962,106669580234",32,"30787,4134265675","6465,35681957917",26/03/02,Efectivo
+71084,71084-C4,Mercería Coso,A Coruña,Existente,Hombre,Otros,"298,898095573482",56,"16738,293352115","3515,04160394415",26/03/02,Efectivo
+22315,22315-C1,El Primero,Vigo,Nuevo,Mujer,Supermercado,"872,080589509103",34,"29650,7400433095","6226,655409095",24/08/71,Efectivo
+22315,22315-C2,El Primero,Vigo,Nuevo,Mujer,Supermercado,"93,6910254581751",59,"5527,77050203233","1160,83180542679",24/08/71,Efectivo
+22315,22315-C3,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"803,056221563701",84,"67456,7226113509","14165,9117483837",24/08/71,Efectivo
+22315,22315-C4,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"588,406406299973",30,"17652,1921889992","3706,96035968983",24/08/71,Efectivo
+22315,22315-C5,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"646,054043397433",74,"47807,99921141","10039,6798343961",24/08/71,Efectivo
+22315,22315-C6,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"465,261554319739",76,"35359,8781283001","7425,57440694303",24/08/71,Efectivo
+33380,33380-C1,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"910,569004890306",24,"21853,6561173673","4589,26778464714",06/10/04,Efectivo
+33380,33380-C2,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"652,564021417028",66,"43069,2254135238","9044,53733684",06/10/04,Efectivo
+33380,33380-C3,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"406,774804143608",82,"33355,5339397758","7004,66212735292",06/10/04,Efectivo
+33380,33380-C4,El Primero,Vigo,Nuevo,Mujer,Supermercado,"603,567540960072",17,"10260,6481963212","2154,73612122746",06/10/04,Efectivo
+33380,33380-C5,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"301,479008060359",62,"18691,6984997422","3925,25668494587",06/10/04,Efectivo
+22397,22397-C1,El Caro,Nigrán,Existente,Mujer,Cocinas,"871,178459358118",96,"83633,1320983794","17562,9577406597",21/01/83,Transferencia bancaria
+22397,22397-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"878,354242369647",59,"51822,9002998092","10882,8090629599",21/01/83,Transferencia bancaria
+22397,22397-C3,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"923,204015671885",14,"12924,8562194064","2714,21980607534",21/01/83,Transferencia bancaria
+22397,22397-C4,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"685,81203281478",81,"55550,7746579972","11665,6626781794",21/01/83,Transferencia bancaria
+68207,68207-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"788,808360890802",92,"72570,3692019538","15239,7775324103",16/05/94,Efectivo
+68207,68207-C2,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"428,06516621975",52,"22259,388643427","4674,47161511967",16/05/94,Efectivo
+68207,68207-C3,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"447,242540784605",19,"8497,6082749075","1784,49773773057",16/05/94,Efectivo
+68207,68207-C4,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"845,60861977691",56,"47354,0827075069","9944,35736857646",16/05/94,Efectivo
+68207,68207-C5,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"237,544197741576",4,"950,176790966303","199,537126102924",16/05/94,Efectivo
+29986,29986-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"616,729728956974",91,"56122,4053350846","11785,7051203678",21/02/75,Transferencia bancaria
+29986,29986-C2,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"923,79949503047",83,"76675,358087529","16101,8251983811",21/02/75,Transferencia bancaria
+29986,29986-C3,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"293,253838824467",14,"4105,55374354254","862,166286143934",21/02/75,Transferencia bancaria
+29986,29986-C4,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"881,82753861644",8,"7054,62030893152","1481,47026487562",21/02/75,Transferencia bancaria
+29986,29986-C5,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"388,248090249877",35,"13588,6831587457","2853,62346333659",21/02/75,Transferencia bancaria
+29986,29986-C6,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"658,024298647677",88,"57906,1382809956","12160,2890390091",21/02/75,Transferencia bancaria
+17669,17669-C1,Mercería Coso,A Coruña,Existente,Mujer,Otros,"185,451423234252",32,"5934,44554349608","1246,23356413418",10/09/00,Efectivo
+17669,17669-C2,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"487,043068497405",38,"18507,6366029014","3886,60368660929",10/09/00,Efectivo
+17669,17669-C3,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"584,52977560547",32,"18704,952819375","3928,04009206876",10/09/00,Efectivo
+17669,17669-C4,El Caro,Nigrán,Existente,Mujer,Cocinas,"966,557097047253",82,"79257,6819578747","16644,1132111537",10/09/00,Efectivo
+17669,17669-C5,Mercería Coso,A Coruña,Existente,Mujer,Otros,"397,394313333723",54,"21459,292920021","4506,45151320442",10/09/00,Efectivo
+58904,58904-C1,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"186,267767494142",67,"12479,9404221075","2620,78748864258",01/06/77,Tarjeta crédito
+58904,58904-C2,Mercería Coso,A Coruña,Existente,Hombre,Otros,"64,7110326522625",50,"3235,55163261312","679,465842848756",01/06/77,Tarjeta crédito
+58904,58904-C3,El Primero,Vigo,Existente,Hombre,Supermercado,"24,9951832490175",93,"2324,55204215863","488,155928853313",01/06/77,Tarjeta crédito
+58904,58904-C4,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"141,771974309176",81,"11483,5299190432","2411,54128299908",01/06/77,Tarjeta crédito
+37331,37331-C1,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"45,940098198322",73,"3353,6271684775","704,261705380276",30/10/02,Tarjeta crédito
+37331,37331-C2,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"761,592731316899",80,"60927,4185053519","12794,7578861239",30/10/02,Tarjeta crédito
+37331,37331-C3,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"599,350697929533",94,"56338,9656053761","11831,182777129",30/10/02,Tarjeta crédito
+37331,37331-C4,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"391,753299217581",59,"23113,4446538373","4853,82337730583",30/10/02,Tarjeta crédito
+37331,37331-C5,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"484,182413133349",4,"1936,7296525334","406,713227032013",30/10/02,Tarjeta crédito
+37331,37331-C6,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"156,520788936734",34,"5321,70682384896","1117,55843300828",30/10/02,Tarjeta crédito
+37331,37331-C7,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"855,688724470187",36,"30804,7940809267","6469,00675699462",30/10/02,Tarjeta crédito
+37331,37331-C8,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"73,3845654989688",91,"6677,99546040616","1402,37904668529",30/10/02,Tarjeta crédito
+37331,37331-C9,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"881,25815719546",35,"30844,0355018411","6477,24745538663",30/10/02,Tarjeta crédito
+37331,37331-C10,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"751,282080063242",13,"9766,66704082215","2051,00007857265",30/10/02,Tarjeta crédito
+6777,6777-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"60,6069333906859",63,"3818,23680361321","801,829728758775",16/02/70,Transferencia bancaria
+6777,6777-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"525,903933486686",34,"17880,7337385473","3754,95408509494",16/02/70,Transferencia bancaria
+6777,6777-C3,Mercería Coso,A Coruña,Existente,Mujer,Otros,"700,064157921964",19,"13301,2190005173","2793,25599010864",16/02/70,Transferencia bancaria
+6777,6777-C4,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"916,711410606845",35,"32084,8993712396","6737,82886796031",16/02/70,Transferencia bancaria
+6777,6777-C5,Mercería Coso,A Coruña,Existente,Mujer,Otros,"908,322379130234",46,"41782,8294399908","8774,39418239806",16/02/70,Transferencia bancaria
+6777,6777-C6,El Primero,Vigo,Existente,Mujer,Supermercado,"139,539788436444",41,"5721,13132589422","1201,43757843779",16/02/70,Transferencia bancaria
+6777,6777-C7,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"636,53655581803",64,"40738,3395723539","8555,05131019433",16/02/70,Transferencia bancaria
+6777,6777-C8,El Caro,Nigrán,Existente,Mujer,Cocinas,"403,771821708765",13,"5249,03368221394","1102,29707326493",16/02/70,Transferencia bancaria
+6777,6777-C9,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"154,802482610811",12,"1857,62979132973","390,102256179242",16/02/70,Transferencia bancaria
+10018,10018-C1,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"789,959653727012",58,"45817,6599161667","9621,70858239501",18/02/88,Efectivo
+10018,10018-C2,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"352,333541193065",58,"20435,3453891977","4291,42253173153",18/02/88,Efectivo
+10018,10018-C3,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"564,413807795649",93,"52490,4841249953","11023,001666249",18/02/88,Efectivo
+10018,10018-C4,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"54,6321244593847",55,"3004,76684526616","631,001037505893",18/02/88,Efectivo
+10018,10018-C5,El Primero,Vigo,Nuevo,Mujer,Supermercado,"483,700507058891",42,"20315,4212964734","4266,23847225942",18/02/88,Efectivo
+10018,10018-C6,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"574,514251627225",79,"45386,6258785508","9531,19143449567",18/02/88,Efectivo
+10018,10018-C7,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"24,3749321734071",56,"1364,9962017108","286,649202359267",18/02/88,Efectivo
+10018,10018-C8,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"661,169598523457",25,"16529,2399630864","3471,14039224815",18/02/88,Efectivo
+31627,31627-C1,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"697,324288398315",85,"59272,5645138568","12447,2385479099",28/02/00,Transferencia bancaria
+31627,31627-C2,El Caro,Nigrán,Existente,Mujer,Cocinas,"214,574093649645",20,"4291,4818729929","901,211193328508",28/02/00,Transferencia bancaria
+31627,31627-C3,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"849,909501025508",53,"45045,2035543519","9459,4927464139",28/02/00,Transferencia bancaria
+31627,31627-C4,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"128,054634295405",21,"2689,1473202035","564,720937242735",28/02/00,Transferencia bancaria
+31627,31627-C5,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"81,3323265049218",14,"1138,6525710689","239,11703992447",28/02/00,Transferencia bancaria
+31627,31627-C6,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"775,474420261485",82,"63588,9024614418","13353,6695169028",28/02/00,Transferencia bancaria
+31627,31627-C7,El Caro,Nigrán,Existente,Mujer,Cocinas,"551,937108563159",41,"22629,4214510895","4752,1785047288",28/02/00,Transferencia bancaria
+31627,31627-C8,Mercería Coso,A Coruña,Existente,Mujer,Otros,"662,424086575901",17,"11261,2094717903","2364,85398907596",28/02/00,Transferencia bancaria
+31627,31627-C9,Mercería Coso,A Coruña,Existente,Mujer,Otros,"673,757032780694",83,"55921,8337207976","11743,5850813675",28/02/00,Transferencia bancaria
+31627,31627-C10,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"140,708596764353",5,"703,542983821766","147,744026602571",28/02/00,Transferencia bancaria
+46547,46547-C1,Mercería Coso,A Coruña,Existente,Mujer,Otros,"859,12603583315",96,"82476,0994399824","17319,9808823963",18/02/91,Efectivo
+46547,46547-C2,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"500,8531727152",50,"25042,65863576","5258,9583135096",18/02/91,Efectivo
+46547,46547-C3,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"283,719073451096",71,"20144,0542150278","4230,25138515584",18/02/91,Efectivo
+46547,46547-C4,Mercería Coso,A Coruña,Existente,Mujer,Otros,"302,466223746098",61,"18450,439648512","3874,59232618751",18/02/91,Efectivo
+46547,46547-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"305,622593796542",37,"11308,035970472","2374,68755379913",18/02/91,Efectivo
+46547,46547-C6,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"146,100487898343",79,"11541,9385439691","2423,80709423351",18/02/91,Efectivo
+46547,46547-C7,Mercería Coso,A Coruña,Existente,Mujer,Otros,"906,016415319793",89,"80635,4609634616","16933,4468023269",18/02/91,Efectivo
+46547,46547-C8,Mercería Coso,A Coruña,Existente,Mujer,Otros,"647,853945423551",5,"3239,26972711775","680,246642694728",18/02/91,Efectivo
+46547,46547-C9,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"682,363703865564",49,"33435,8214894126","7021,52251277665",18/02/91,Efectivo
+95073,95073-C1,El Caro,Nigrán,Existente,Hombre,Cocinas,"667,507504994182",12,"8010,09005993018","1682,11891258534",06/10/87,Efectivo
+95073,95073-C2,El Primero,Vigo,Existente,Hombre,Supermercado,"373,973519808417",89,"33283,6432629491","6989,56508521931",06/10/87,Efectivo
+40579,40579-C1,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"631,531387520999",12,"7578,37665025199","1591,45909655292",21/07/03,Tarjeta crédito
+40579,40579-C2,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"307,248519215504",84,"25808,8756141023","5419,86387896148",21/07/03,Tarjeta crédito
+40579,40579-C3,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"595,482742785694",9,"5359,34468507124","1125,46238386496",21/07/03,Tarjeta crédito
+40579,40579-C4,El Primero,Vigo,Nuevo,Hombre,Supermercado,"847,15621570511",18,"15248,811882692","3202,25049536532",21/07/03,Tarjeta crédito
+40579,40579-C5,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"250,849271355275",66,"16556,0519094482","3476,77090098411",21/07/03,Tarjeta crédito
+40579,40579-C6,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"588,645833564524",4,"2354,5833342581","494,4625001942",21/07/03,Tarjeta crédito
+40579,40579-C7,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"550,640470301255",62,"34139,7091586778","7169,33892332235",21/07/03,Tarjeta crédito
+40579,40579-C8,El Primero,Vigo,Nuevo,Hombre,Supermercado,"302,328208884245",59,"17837,3643241705","3745,8465080758",21/07/03,Tarjeta crédito
+28239,28239-C1,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"334,262964418798",62,"20724,3037939655","4352,10379673275",27/10/04,Efectivo
+28239,28239-C2,El Caro,Nigrán,Existente,Mujer,Cocinas,"733,396898978487",14,"10267,5565856988","2156,18688299675",27/10/04,Efectivo
+28239,28239-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"424,013042802541",15,"6360,19564203811","1335,641084828",27/10/04,Efectivo
+28239,28239-C4,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"723,416463504875",97,"70171,3969599728","14735,9933615943",27/10/04,Efectivo
+28239,28239-C5,El Primero,Vigo,Existente,Mujer,Supermercado,"338,963080653815",27,"9152,00317765301","1921,92066730713",27/10/04,Efectivo
+28239,28239-C6,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"885,153648214235",29,"25669,4557982128","5390,58571762469",27/10/04,Efectivo
+28239,28239-C7,El Caro,Nigrán,Existente,Mujer,Cocinas,"855,35660967114",16,"13685,7057547382","2873,99820849503",27/10/04,Efectivo
+28239,28239-C8,Mercería Coso,A Coruña,Existente,Mujer,Otros,"367,081268664239",71,"26062,770075161","5473,1817157838",27/10/04,Efectivo
+28239,28239-C9,El Primero,Vigo,Existente,Mujer,Supermercado,"374,905277028788",33,"12371,87414195","2598,0935698095",27/10/04,Efectivo
+28239,28239-C10,El Primero,Vigo,Existente,Mujer,Supermercado,"961,178191304351",51,"49020,0877565219","10294,2184288696",27/10/04,Efectivo
+5220,5220-C1,El Primero,Vigo,Nuevo,Mujer,Supermercado,"581,072367559864",86,"49972,2236101483","10494,1669581311",20/08/71,Transferencia bancaria
+5220,5220-C2,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"731,473406957538",11,"8046,20747653292","1689,70357007191",20/08/71,Transferencia bancaria
+5220,5220-C3,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"19,9909266166558",37,"739,664284816266","155,329499811416",20/08/71,Transferencia bancaria
+5220,5220-C4,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"837,618271141402",72,"60308,515522181","12664,788259658",20/08/71,Transferencia bancaria
+5220,5220-C5,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"809,768120276058",18,"14575,826164969","3060,9234946435",20/08/71,Transferencia bancaria
+5220,5220-C6,El Primero,Vigo,Nuevo,Mujer,Supermercado,"566,25080968635",2,"1132,5016193727","237,825340068267",20/08/71,Transferencia bancaria
+5220,5220-C7,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"836,302970802928",36,"30106,9069489054","6322,45045927014",20/08/71,Transferencia bancaria
+5220,5220-C8,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"572,482697273897",20,"11449,6539454779","2404,42732855037",20/08/71,Transferencia bancaria
+27943,27943-C1,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"64,9447192952412",2,"129,889438590482","27,2767821040013",03/01/76,Tarjeta crédito
+27943,27943-C2,Mercería Coso,A Coruña,Existente,Hombre,Otros,"648,857577586922",45,"29198,5909914115","6131,70410819642",03/01/76,Tarjeta crédito
+27943,27943-C3,El Caro,Nigrán,Existente,Hombre,Cocinas,"96,8627645415595",35,"3390,19675895458","711,941319380462",03/01/76,Tarjeta crédito
+27943,27943-C4,El Caro,Nigrán,Existente,Hombre,Cocinas,"884,4470225644",99,"87560,2552338756","18387,6535991139",03/01/76,Tarjeta crédito
+27943,27943-C5,El Primero,Vigo,Existente,Hombre,Supermercado,"985,092759214876",73,"71911,771422686","15101,4719987641",03/01/76,Tarjeta crédito
+27943,27943-C6,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"67,6283737951444",71,"4801,61453945525","1008,3390532856",03/01/76,Tarjeta crédito
+27943,27943-C7,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"47,5805516795",89,"4234,6690994755","889,280510889854",03/01/76,Tarjeta crédito
+27943,27943-C8,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"561,84679148388",37,"20788,3312849036","4365,54956982975",03/01/76,Tarjeta crédito
+27943,27943-C9,El Primero,Vigo,Existente,Hombre,Supermercado,"279,982865031317",25,"6999,57162578291","1469,91004141441",03/01/76,Tarjeta crédito
+28497,28497-C1,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"835,481417771684",16,"13367,702684347","2807,21756371286",14/03/88,Transferencia bancaria
+28497,28497-C2,El Primero,Vigo,Nuevo,Hombre,Supermercado,"646,661908148209",1,"646,661908148209","135,799000711124",14/03/88,Transferencia bancaria
+28497,28497-C3,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"462,101487950005",59,"27263,9877890503","5725,43743570057",14/03/88,Transferencia bancaria
+28497,28497-C4,El Primero,Vigo,Nuevo,Hombre,Supermercado,"768,594763300271",68,"52264,4439044184","10975,5332199279",14/03/88,Transferencia bancaria
+28497,28497-C5,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"599,616248440551",35,"20986,5686954193","4407,17942603805",14/03/88,Transferencia bancaria
+28497,28497-C6,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"21,7556789577546",89,"1936,25542724016","406,613639720434",14/03/88,Transferencia bancaria
+28497,28497-C7,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"936,368005178778",87,"81464,0164505537","17107,4434546163",14/03/88,Transferencia bancaria
+28497,28497-C8,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"380,886016635814",49,"18663,4148151549","3919,31711118252",14/03/88,Transferencia bancaria
+28497,28497-C9,El Primero,Vigo,Nuevo,Hombre,Supermercado,"766,849371508146",13,"9969,04182960589","2093,49878421724",14/03/88,Transferencia bancaria
+28497,28497-C10,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"621,678860816604",29,"18028,6869636815","3786,02426237312",14/03/88,Transferencia bancaria
+51480,51480-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"658,362962916131",96,"63202,8444399486","13272,5973323892",19/10/93,Tarjeta crédito
+51480,51480-C2,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"548,121595589101",31,"16991,7694632621","3568,27158728505",19/10/93,Tarjeta crédito
+51480,51480-C3,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"89,9073667643227",58,"5214,62727233072","1095,07172718945",19/10/93,Tarjeta crédito
+51480,51480-C4,Mercería Coso,A Coruña,Nuevo,Hombre,Otros,"673,074646451957",92,"61922,86747358","13003,8021694518",19/10/93,Tarjeta crédito
+51480,51480-C5,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"215,1520105862",71,"15275,7927516202","3207,91647784024",19/10/93,Tarjeta crédito
+51480,51480-C6,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"612,860440763907",44,"26965,8593936119","5662,8304726585",19/10/93,Tarjeta crédito
+51480,51480-C7,El Caro,Nigrán,Nuevo,Hombre,Cocinas,"899,403673380436",25,"22485,0918345109","4721,86928524729",19/10/93,Tarjeta crédito
+72208,72208-C1,El Caro,Nigrán,Existente,Mujer,Cocinas,"866,785746701924",21,"18202,5006807404","3822,52514295548",12/12/05,Transferencia bancaria
+72208,72208-C2,El Caro,Nigrán,Existente,Mujer,Cocinas,"473,950539654463",70,"33176,5377758124","6967,0729329206",12/12/05,Transferencia bancaria
+72208,72208-C3,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"549,609759490602",50,"27480,4879745301","5770,90247465132",12/12/05,Transferencia bancaria
+72208,72208-C4,Mercería Coso,A Coruña,Existente,Mujer,Otros,"465,400303984614",58,"26993,2176311076","5668,57570253259",12/12/05,Transferencia bancaria
+72208,72208-C5,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"916,259831642335",85,"77882,0856895985","16355,2379948157",12/12/05,Transferencia bancaria
+72208,72208-C6,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"155,820201475945",11,"1714,0222162354","359,944665409434",12/12/05,Transferencia bancaria
+72208,72208-C7,El Caro,Nigrán,Existente,Mujer,Cocinas,"222,095320878788",62,"13769,9098944848","2891,68107784182",12/12/05,Transferencia bancaria
+72208,72208-C8,El Caro,Nigrán,Existente,Mujer,Cocinas,"440,622170496219",69,"30402,9297642391","6384,61525049021",12/12/05,Transferencia bancaria
+72208,72208-C9,Mercería Coso,A Coruña,Existente,Mujer,Otros,"114,746552649667",20,"2294,93105299334","481,935521128601",12/12/05,Transferencia bancaria
+72208,72208-C10,El Primero,Vigo,Existente,Mujer,Supermercado,"734,691612125519",56,"41142,730279029","8639,9733585961",12/12/05,Transferencia bancaria
+56277,56277-C1,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"94,4610867090501",58,"5478,7430291249","1150,53603611623",13/11/75,Efectivo
+56277,56277-C2,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"83,995702419733",24,"2015,89685807359","423,338340195454",13/11/75,Efectivo
+56277,56277-C3,El Caro,Nigrán,Nuevo,Mujer,Cocinas,"812,28545808285",43,"34928,2746975626","7334,93768648814",13/11/75,Efectivo
+56277,56277-C4,Mercería Coso,A Coruña,Nuevo,Mujer,Otros,"920,411983248544",14,"12885,7677654796","2706,01123075072",13/11/75,Efectivo
+56277,56277-C5,El Cercano,Pontevedra,Nuevo,Mujer,Supermercado,"64,6566034825581",57,"3685,42639850581","773,93954368622",13/11/75,Efectivo
+56277,56277-C6,El Primero,Vigo,Nuevo,Mujer,Supermercado,"396,466900813356",10,"3964,66900813356","832,580491708047",13/11/75,Efectivo
+56277,56277-C7,Perfumes Olorosos,Vigo,Nuevo,Mujer,Belleza y perfumería,"723,94208543412",28,"20270,3783921554","4256,77946235262",13/11/75,Efectivo
+56277,56277-C8,El Primero,Vigo,Nuevo,Mujer,Supermercado,"673,140667247008",77,"51831,8313780196","10884,6845893841",13/11/75,Efectivo
+71233,71233-C1,El Cercano,Pontevedra,Nuevo,Hombre,Supermercado,"975,948533165869",16,"15615,1765306539","3279,18707143732",22/07/72,Transferencia bancaria
+71233,71233-C2,Perfumes Olorosos,Vigo,Nuevo,Hombre,Belleza y perfumería,"636,154184866243",50,"31807,7092433122","6679,61894109555",22/07/72,Transferencia bancaria
+26364,26364-C1,Mercería Coso,A Coruña,Existente,Mujer,Otros,"202,845633905483",56,"11359,355498707","2385,46465472848",07/03/74,Tarjeta crédito
+26364,26364-C2,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"67,2504254369471",4,"269,001701747789","56,4903573670356",07/03/74,Tarjeta crédito
+26364,26364-C3,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"496,704066145713",3,"1490,11219843714","312,923561671799",07/03/74,Tarjeta crédito
+26364,26364-C4,El Cercano,Pontevedra,Existente,Mujer,Supermercado,"231,980248775569",18,"4175,64447796023","876,885340371649",07/03/74,Tarjeta crédito
+26364,26364-C5,El Caro,Nigrán,Existente,Mujer,Cocinas,"870,530829606179",21,"18281,1474217298","3839,04095856325",07/03/74,Tarjeta crédito
+26364,26364-C6,El Primero,Vigo,Existente,Mujer,Supermercado,"10,1221063512993",84,"850,256933509141","178,55395603692",07/03/74,Tarjeta crédito
+11542,11542-C1,El Caro,Nigrán,Existente,Mujer,Cocinas,"822,409732703366",8,"6579,27786162693","1381,64835094166",16/11/87,Transferencia bancaria
+11542,11542-C2,Mercería Coso,A Coruña,Existente,Mujer,Otros,"622,807224433967",3,"1868,4216733019","392,368551393399",16/11/87,Transferencia bancaria
+11542,11542-C3,El Primero,Vigo,Existente,Mujer,Supermercado,"977,851366579898",32,"31291,2437305568","6571,16118341692",16/11/87,Transferencia bancaria
+11542,11542-C4,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"420,697484099112",83,"34917,8911802263","7332,75714784753",16/11/87,Transferencia bancaria
+11542,11542-C5,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"501,037270055733",56,"28058,0871231211","5892,19829585542",16/11/87,Transferencia bancaria
+11542,11542-C6,Mercería Coso,A Coruña,Existente,Mujer,Otros,"588,224409687281",76,"44705,0551362333","9388,061578609",16/11/87,Transferencia bancaria
+11542,11542-C7,El Primero,Vigo,Existente,Mujer,Supermercado,"240,563690181485",8,"1924,50952145188","404,146999504895",16/11/87,Transferencia bancaria
+11542,11542-C8,Perfumes Olorosos,Vigo,Existente,Mujer,Belleza y perfumería,"172,492648655228",80,"13799,4118924182","2897,87649740782",16/11/87,Transferencia bancaria
+11542,11542-C9,Mercería Coso,A Coruña,Existente,Mujer,Otros,"706,678159732673",2,"1413,35631946535","296,804827087723",16/11/87,Transferencia bancaria
+11542,11542-C10,El Caro,Nigrán,Existente,Mujer,Cocinas,"963,46772596278",31,"29867,4995048462","6272,17489601769",16/11/87,Transferencia bancaria
+30066,30066-C1,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"247,816960569294",8,"1982,53568455435","416,332493756414",04/02/98,Efectivo
+30066,30066-C2,El Cercano,Pontevedra,Existente,Hombre,Supermercado,"653,99155792645",24,"15695,7973902348","3296,11745194931",04/02/98,Efectivo
+30066,30066-C3,Mercería Coso,A Coruña,Existente,Hombre,Otros,"974,516979626758",20,"19490,3395925352","4092,97131443238",04/02/98,Efectivo
+30066,30066-C4,Mercería Coso,A Coruña,Existente,Hombre,Otros,"131,572594042298",39,"5131,33116764963","1077,57954520642",04/02/98,Efectivo
+30066,30066-C5,Perfumes Olorosos,Vigo,Existente,Hombre,Belleza y perfumería,"814,358657150635",59,"48047,1607718874","10089,9037620964",04/02/98,Efectivo
+30066,30066-C6,El Primero,Vigo,Existente,Hombre,Supermercado,"867,107359521197",90,"78039,6623569077","16388,3290949506",04/02/98,Efectivo
+30066,30066-C7,Mercería Coso,A Coruña,Existente,Hombre,Otros,"331,61786515681",80,"26529,4292125448","5571,18013463441",04/02/98,Efectivo
+######################Fin del resumen de compras#################

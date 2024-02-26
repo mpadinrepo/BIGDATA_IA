@@ -1,0 +1,291 @@
+[33mcommit 15485682c169a5b1d4202e92129ff0fee8e2a346[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 26 13:20:02 2024 +0100
+
+    OK Up
+
+[33mcommit 678b1d55006fd7d2b624404f74d3c2ad797e8242[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 26 13:18:03 2024 +0100
+
+    OK up
+
+[33mcommit ff54eac503467b78718c9f31408595873cb83fb9[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 26 13:14:59 2024 +0100
+
+    OK Subir LINUX
+
+[33mcommit a6d500e0ba004acbbe2a59b24918f92888934d76[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 26 13:11:09 2024 +0100
+
+    MiniProxecto_AND_Examen
+
+[33mcommit 8ec55b036349d2d53e2b8f56fb6bde506aec8b03[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: mapdinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 26 12:48:03 2024 +0100
+
+    OK miniProxecto
+
+[33mcommit e3e949e5b486936ce3c7b533fe63b13f518f15ed[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 22 13:24:32 2024 +0100
+
+    20240222 RandomForest TITANIC - pendiente Linear
+    Regresio y Logitic Regresion
+
+[33mcommit a863ed3b4c603a2830835fe24446d9c2d807ac36[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 22 13:16:48 2024 +0100
+
+    OK CLASE
+
+[33mcommit 5ea3c1e8b564f1c2bbb3342556b26487b614deab[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 22 13:03:23 2024 +0100
+
+    20240222 OK clases
+
+[33mcommit 7826aff89436147a5a5e07773573b5f74f00794d[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 19 14:05:48 2024 +0100
+
+    20240219 - OK Docker Updated
+
+[33mcommit 622d05f05ec4fd5d8e1879b54d27711ae7c0a5e3[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 19 13:01:04 2024 +0100
+
+    OK 202450219 - PIA
+
+[33mcommit 9404ba3b11f80e4b4bf94ced599ff069316261cc[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 19 11:07:53 2024 +0100
+
+    OK 20240219 PostExamen SBDA Actualizar
+
+[33mcommit 3598651e7e056cfea1b0383a2c40a02fc619d415[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 16 10:14:52 2024 +0100
+
+    OK 20240216 subir ejercicios externod PIA
+
+[33mcommit 1cf5093137501f3d59ba1861c98c5821d1b2da6f[m
+Merge: 27e9516 5076caa
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 16 09:17:38 2024 +0100
+
+    Merge branch 'main' of https://github.com/mpadinrepo/BIGDATA_IA into main
+
+[33mcommit 27e95169642513a76cfab01bf6ebed11210e69ca[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 16 09:05:04 2024 +0100
+
+    OK GO
+
+[33mcommit 5076caa6e44e259925ae0ac0f62cd83cfac98a3b[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 15 22:12:44 2024 +0100
+
+    OK Segunda tanda 20240215
+
+[33mcommit c87b6629373634774c4b84c6a0c0ba2db8ef40e4[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 15 19:49:53 2024 +0100
+
+    OK CHANGE HISTORY 20240215v2
+
+[33mcommit df96f03fdbaf5213c6c315ffbe8462c59c0c42a0[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 15 16:56:49 2024 +0100
+
+    OK GO
+
+[33mcommit 70ed7092f8d678134b830736e2ddecd24fa15c78[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 12 20:08:16 2024 +0100
+
+    20240212 ejercicios Python
+
+[33mcommit c169faebfda626254f893d0a3dc7f0a850c42a8a[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Sun Feb 11 18:24:51 2024 +0100
+
+    OK AAA_TarefasRev1
+
+[33mcommit 2b62a3d9c77e68a2a8ba797e8392e4e433230ba7[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 21:12:33 2024 +0100
+
+    20240209 estructura python AAA_TarefasRev1
+
+[33mcommit 0df406b8e5b3e697cbfea808e4d707d2c8067b9a[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 20:46:15 2024 +0100
+
+    20240209 - export intpython OK
+
+[33mcommit 9c61c2606e3a57e127ba9c4752cf40c55b18459b[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 20:29:17 2024 +0100
+
+    OK 20240209
+
+[33mcommit 88061445f870f288e10220e9e1054faf4b0b3991[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 20:27:55 2024 +0100
+
+    OK GO
+
+[33mcommit bb37250ac7b63910d0162b6a102b490f7ac41a59[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 13:22:28 2024 +0100
+
+    OK 20240209
+
+[33mcommit 863e2648b8565fea24a5598bbd34c31959c0d81a[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 13:17:59 2024 +0100
+
+    OK PIA 20240209
+
+[33mcommit a76efd67bedc34559ab4ae190e03b204fcc489ad[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 11:18:01 2024 +0100
+
+    OK 20240209
+
+[33mcommit 8d0a22afd219d616baa393745fbed272bf03e6f6[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Fri Feb 9 10:42:29 2024 +0100
+
+    OK subir 20240209
+
+[33mcommit 83e10b54201a1d952c0a51cdbf9786e936db4629[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Thu Feb 8 12:09:49 2024 +0100
+
+    20240208 OK clases
+
+[33mcommit d9d0d0840c6cdbe1dfcc42c4ffc85386ca81dc66[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 19:58:05 2024 +0100
+
+    OK trabajando 20240207
+
+[33mcommit 900d7b4dfab5bbc71619f46fbacd34fa3208a562[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 17:08:24 2024 +0100
+
+    OK
+
+[33mcommit c347d088204ab5cb5f675e825209bfab066bc201[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 14:09:41 2024 +0100
+
+    OK GO
+
+[33mcommit 86168da94eec7cbd5bb932e10d022900860ad98a[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 14:09:41 2024 +0100
+
+    OK GO
+
+[33mcommit f7391e2c736c87274da6f915441d6d83e9d243d7[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 12:05:38 2024 +0100
+
+    OK SUBIR
+
+[33mcommit 1fffb1f1d9fe6ebef569ec9b3ef5a85915158b7c[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 12:05:38 2024 +0100
+
+    OK SUBIR
+
+[33mcommit eacd27c622a1bee01fa475bdb5758da6f7dca728[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 10:25:37 2024 +0100
+
+    OK arriba
+
+[33mcommit 0a52bfa7f2fc2b3495d80d41251cf2fe6614669e[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 10:25:37 2024 +0100
+
+    OK arriba
+
+[33mcommit ad82ba753591bf30c5acbe3c9dffe15251755d1b[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 09:54:29 2024 +0100
+
+    OK SUBIR
+
+[33mcommit b3e78815ca5f8b0ff9a0b1a554b67c6104188c40[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 09:54:29 2024 +0100
+
+    OK SUBIR
+
+[33mcommit edd35e3a3edb8aa1e8280c3bb90cf368e4d0afad[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 09:20:23 2024 +0100
+
+    OK SUBIR
+
+[33mcommit 17b21914bd7860271970a081b9d5e84a115357ce[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Wed Feb 7 09:20:23 2024 +0100
+
+    OK SUBIR
+
+[33mcommit ef7d9db118fcaa2937ecaaf8520de97c22d14a87[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Tue Feb 6 23:42:44 2024 +0100
+
+    20240206
+
+[33mcommit 93e0c0e626067a6c9ff91900d931e5b2f05dfa1b[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Tue Feb 6 23:42:44 2024 +0100
+
+    20240206
+
+[33mcommit c4b96e1d2a4a716c1dafb2fe3c46c4eb76ec36aa[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Tue Feb 6 10:22:25 2024 +0100
+
+    Actualiza archivos en BIGDATA_IA
+
+[33mcommit 65f3cd5df14ffc4cccba7ed3ec1a6ae1561d8bef[m
+Author: Manuel Padin <manuelpadinpresa@gmx.es>
+Date:   Tue Feb 6 10:22:25 2024 +0100
+
+    Actualiza archivos en BIGDATA_IA
+
+[33mcommit 53bc012c44297bc5ddbd0b4cd9e659efaf540b32[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 5 19:50:42 2024 +0100
+
+    Actualizar archivos para corregir CRLF
+
+[33mcommit 43c1835dd60afb1c8a94538dfa2a4b03a2324d3b[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 5 19:50:42 2024 +0100
+
+    Actualizar archivos para corregir CRLF
+
+[33mcommit 50006e7a5e33ba3103d2c6fa109bc9caf41953f6[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 5 19:49:20 2024 +0100
+
+    Corregir formato de .gitattributes
+
+[33mcommit fd8434fc85c003400ce10228048f8df1261e2e58[m
+Author: mpadinrepo <manuelpadinpresa@gmx.es>
+Date:   Mon Feb 5 19:49:20 2024 +0100
+
+    Corregir formato de .gitattributes
+
+[33
