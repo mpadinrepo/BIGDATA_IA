@@ -6,7 +6,8 @@ El problema que abordamos es el juego clásico de "piedra, papel, tijeras" (RPS)
 
 Para abordar este problema, hemos implementado una solución básica en Python que permite a un agente jugar contra un oponente humano o contra un oponente que elige sus acciones al azar.
 
-El código básico del juego RPS se encuentra en el siguiente enlace: [solución básica](link-a-solucion-basica).
+[Código básico del juego RPS](https://github.com/mpadinrepo/BIGDATA_IA/tree/main/BIGDATA_IA/MIA_DAVID/EjerciciosModelosAgentes/piedra-papel-tijeras-manu/01_RPS_Basico.py)
+
 
 ### Características del problema RPS
 
