@@ -1,92 +1,51 @@
-Práctica Axentes Intelixentes
-=============================
+Problema: Juego de Piedra, Papel, Tijeras (RPS)
+El juego clásico de "piedra, papel, tijeras" (RPS) es un juego simple en el que dos jugadores eligen entre tres opciones: piedra, papel o tijeras. Las reglas son claras: la piedra vence a las tijeras, las tijeras vencen al papel y el papel vence a la piedra. Si ambos jugadores eligen la misma opción, el juego termina en empate.
 
-   * [O problema](#o-problema)
-   * [Contorno de tarefas](#tcontorno-de-tarefas)
-   * [Estrutura do axente](#estrutura-do-axente)
-   * [Implementación](#implementación)
-   * [Extensión](#extensión)
-   * [Entrega](#entrega)
-   * [Bibliografía](#bibliografía)
+Implementación Básica del Juego RPS
+Para abordar este problema, hemos implementado una solución básica en Python que permite que un agente juegue contra un oponente humano o contra un oponente que elige sus acciones al azar.
 
-Proponse programar un axente intelixente solución ao entorno de tarefas do xogo pedra, papel, tesoiras, seguindo as directrices de modelado propostas no capítulo 2 _Intelligent Agents_ do libro _IA: A modern approach, Russell & Norvig_.
+Código básico del juego RPS
+Características del Problema RPS
+Según el epígrafe "2.3.2 Properties of task environments" del libro IA: A Modern Approach, podemos identificar las siguientes características del entorno del juego RPS:
 
-Para iso é necesario:
+Característica	Descripción
+Observable	Sí. El estado del juego es completamente observable por ambos jugadores en todo momento.
+Agentes	2. Hay dos agentes involucrados: un agente humano y un agente computacional.
+Determinista	Sí. Dado un estado del juego y las acciones elegidas por ambos jugadores, el resultado del juego es determinado.
+Episódico	Sí. Cada juego de RPS es un episodio independiente.
+Estático	Sí. El entorno del juego no cambia durante la ejecución de un juego particular.
+Discreto	Sí. Las acciones disponibles para cada jugador (piedra, papel, tijeras) son opciones discretas y finitas.
+Conocido	Sí. Los jugadores conocen las reglas del juego y las posibles acciones disponibles en todo momento.
+Contorno de Tareas RPS
+El juego de RPS presenta un entorno observable, determinista, episódico, estático, discreto y conocido. Estas características hacen que sea un problema adecuado para la implementación de un agente inteligente.
 
-1. Especificar as características do contorno de tarefas.
-2. Identificar o tipo de axente para determinar a estrutura do axente.
-3. Implementar en Python os compoñentes da estrutura do axente para construir a función axente ou función mapa.
+Estrutura do Axente para RPS
+La estructura del agente inteligente para el juego de RPS puede seguir el modelo general propuesto en IA: A Modern Approach:
 
+Percepción: El agente recibe la acción del oponente en el turno anterior como percepción del entorno.
+Memoria: El agente puede mantener un registro de las acciones pasadas del oponente y sus propias acciones.
+Selección de Acción: Basándose en la percepción y la memoria, el agente decide qué acción tomar en el siguiente turno.
+Actuación: El agente realiza la acción seleccionada (piedra, papel o tijeras) en el juego.
+Implementación del Agente en Python
+python
+Copy code
+class AgenteJugador:
+    def __init__(self):
+        self.ultima_accion_oponente = None
 
-## O problema
+    def percibir_entorno(self, accion_oponente):
+        self.ultima_accion_oponente = accion_oponente
 
-Estudia a [solución básica](./doc/codigo_RPS_explicado.md) ao xogo pedra, papel, tesoiras (desde agora RPS, siglas en inglés correspondentes a _Rock, Paper, Scissors_).
+    def seleccionar_accion(self):
+        if self.ultima_accion_oponente is None:
+            return random.choice(['piedra', 'papel', 'tijeras'])
+        else:
+            return self.manejar_accion_oponente(self.ultima_accion_oponente)
 
-Intenta comprender os constructos Python que se empregan.
+    def manejar_accion_oponente(self, accion_oponente):
+        # Lógica para seleccionar la acción del agente
+        pass
+Esta es una implementación básica del agente. La función manejar_accion_oponente debe ser completada con la estrategia específica del agente.
 
-## Contorno de tarefas
-
-Especifica as características do contorno de tarefas do RPS e xustifica a túa resposta, segundo o epígrafe _"2.3.2 Properties of task environments"_ do capítulo 2 _Intelligent Agents_ do libro _IA: A modern approach, Russell & Norvig_.
-
-Resume as características do contorno nunha táboa co formato:
-
-Contorno de tarefas | Observable| Axentes | Determinista | Episódico | Estático | Discreto | Coñecido
-:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
- RPS | - | - | - | - | - |  - |  - |
-
-No libro atoparás unha táboa semellante:
-
-![Exemplos contornas de tarefas](./doc/exemplos_contornas.png)Exemplos contornas de tarefas.
-
-## Estrutura do axente
-
-O noso propósito é deseñar o **programa axente** que implementa a **función axente** ou a **función que mapea** as percepcións a accións. 
-
-A partires do modelo xeral de axente intelixente da figura:
-
-![Modelo xeral axente intelixente](./doc/modelo_AI.png)
-
-**debuxa un modelo adecuado** ao contorno de tarefas e a un dos catro **tipos de programas axente**:
-
-- Axentes reactivos simples
-- Axentes reactivos baseados en modelos.
-- Axentes baseados en obxectivos.
-- Axentes baseados en utilidade.
-
-Cada clase de axente combina compoñentes particulares dun modo particular para xerar as accións. 
-
-## Implementación - Simulando IA
-
-Implementa en Python os compoñentes da estrutura do axente para construir a función axente ou función mapa.
-
-Lee o código contigo en [src](./src/) e os [comentarios ao código](./doc/codigo_RPS_explicado.md).
-
-Modifica a función `get_computer_action()` coa estratexia que consideres máis proveitosa para maximizar o **rendemento** do axente. Recorda que a medida do rendemento vese afectada por diversas consideracións.
-
-Engade os compoñentes software que precises para implementar os compoñentes do tipo de programa axente que deseñaches no epígrafe anterior que, de xeito xeral, se incluen na figura seguinte:
-
-![Table Driven Agent Program](./doc/table_driven_agent_program.png)
-
-Consegue que o código satisfaga os principios **SOLID**, en particular, **SRP** e **OCP** para extender a súa lóxica a diferentes versións do xogo.
-
-## Extensión
-
-Unha vez programado o axente para a versión clásica do RPS, extende o súa lóxica para xogar á versión  [pedra, papel, tesoiras, lagarto, Spock](http://www.samkass.com/theories/RPSSL.html)
-
-## Entrega
-
-Nun proxecto no teu github /gitlab co teu código e a documentación, esta última recollida no `README` do proxecto e escrita en formato Markdown.
-
-## Bibliografía
-
-Lutz, Mark. _Learning Python_. Sebastopol, Ca, O’reilly, 2018.
-
-Martin, Robert C. _Clean Code a Handbook of Agile Software Craftmanship_. Upper Saddle River [Etc.] Prentice Hall, 2010.
-
-Martin, Robert C. _Clean Architecture: A Craftsman’s Guide to Software Structure and Design_. Prentice Hall, 2018.
-
-S. McConnel. _Code Complete: A Practical Handbook of Software Construction_, 2dn Edition. Microsoft Press, 2004.
-
-Russell, Peter. _ARTIFICIAL INTELLIGENCE : A Modern Approach_, Global Edition. S.L., Pearson Education Limited, 2021.
-
-‌
+Principios SOLID
+Es importante aplicar los principios SOLID para garantizar que el código sea mantenible y escalable. Especialmente, nos centraremos en el Principio de Responsabilidad Única (SRP) y el Principio de Abierto/Cerrado (OCP), separando las responsabilidades y permitiendo la extensión del código.
