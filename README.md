@@ -8,6 +8,7 @@
 - [ML_VANESA](https://github.com/mpadinrepo/BIGDATA_IA/tree/main/BIGDATA_IA/ML_VANESA)
 - [PIA_ISAAC](https://github.com/mpadinrepo/BIGDATA_IA/tree/main/BIGDATA_IA/PIA_ISAAC)
 - [SBDA_JUANCARLOS](https://github.com/mpadinrepo/BIGDATA_IA/tree/main/BIGDATA_IA/SBDA_JUANCARLOS)
+- [BDA_RICARDO](https://github.com/mpadinrepo/BIGDATA_IA/tree/main/BIGDATA_IA/BDA_RICARDO)
 
 ## Acerca de Mí
 
