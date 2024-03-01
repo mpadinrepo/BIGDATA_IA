@@ -1,70 +1,36 @@
 #!/usr/bin/python3
 
 import random
-from enum import Enum
 
-class Accion(Enum):
-    PIEDRA = 'piedra'
-    PAPEL = 'papel'
-    TIJERAS = 'tijeras'
+ROCK = 'piedra'
+PAPEL = 'papel'
+TIJERAS = 'tijeras'
+LAGARTO = 'lagarto'
+SPOCK = 'Spock'
 
 def evaluar_juego(accion_usuario, accion_computadora):
-    global partidas_jugadas, partidas_ganadas, partidas_perdidas
-
-    partidas_jugadas += 1
-
     if accion_usuario == accion_computadora:
-        print(f"Tanto el usuario como la computadora eligieron {accion_usuario.name}. ¡Empate!")
-    elif accion_usuario == Accion.PIEDRA:
-        if accion_computadora == Accion.TIJERAS:
-            print("La piedra rompe las tijeras. ¡Ganaste!")
-            partidas_ganadas += 1
-        else:
-            print("El papel cubre la piedra. ¡Perdiste!")
-            partidas_perdidas += 1
-    elif accion_usuario == Accion.PAPEL:
-        if accion_computadora == Accion.PIEDRA:
-            print("El papel cubre la piedra. ¡Ganaste!")
-            partidas_ganadas += 1
-        else:
-            print("Las tijeras cortan el papel. ¡Perdiste!")
-            partidas_perdidas += 1
-    elif accion_usuario == Accion.TIJERAS:
-        if accion_computadora == Accion.PIEDRA:
-            print("La piedra rompe las tijeras. ¡Perdiste!")
-            partidas_perdidas += 1
-        else:
-            print("Las tijeras cortan el papel. ¡Ganaste!")
-            partidas_ganadas += 1
-
-def obtener_accion_computadora():
-    return random.choice(list(Accion))
-
-def obtener_accion_usuario():
-    accion = input(f"\nElige una opción: {', '.join([accion.value for accion in Accion])}: ").lower()
-    return Accion(accion)
-
-def seguir_jugando():
-    return input("\n¿Otra ronda? (s/n): ").lower() == 's'
+        print(f"Tanto el usuario como la computadora eligieron {accion_usuario}. ¡Empate!")
+    elif (accion_usuario, accion_computadora) in [(ROCK, TIJERAS), (ROCK, LAGARTO), 
+                                                   (PAPEL, ROCK), (PAPEL, SPOCK), 
+                                                   (TIJERAS, PAPEL), (TIJERAS, LAGARTO), 
+                                                   (LAGARTO, PAPEL), (LAGARTO, SPOCK), 
+                                                   (SPOCK, ROCK), (SPOCK, TIJERAS)]:
+        print(f"¡{accion_usuario} vence a {accion_computadora}! ¡Ganaste!")
+    else:
+        print(f"¡{accion_computadora} vence a {accion_usuario}! ¡Perdiste!")
 
 def main():
-    global partidas_jugadas, partidas_ganadas, partidas_perdidas
-
-    partidas_jugadas = 0
-    partidas_ganadas = 0
-    partidas_perdidas = 0
-
+    acciones = [ROCK, PAPEL, TIJERAS, LAGARTO, SPOCK]
     while True:
-        try:
-            accion_usuario = obtener_accion_usuario()
-        except ValueError:
-            print(f"Selección inválida. Elige una opción de: {[accion.value for accion in Accion]}!")
-            continue
-        accion_computadora = obtener_accion_computadora()
-        evaluar_juego(accion_usuario, accion_computadora)
-        print(f"\nPartidas jugadas: {partidas_jugadas}, Partidas ganadas: {partidas_ganadas}, Partidas perdidas: {partidas_perdidas}")
-        if not seguir_jugando():
-            break
+        accion_usuario = input("\nElige una opción: piedra, papel, tijeras, lagarto o Spock: ")
+        if accion_usuario.lower() in [ROCK.lower(), PAPEL.lower(), TIJERAS.lower(), 
+                                      LAGARTO.lower(), SPOCK.lower()]:
+            accion_computadora = random.choice(acciones)
+            print(f"\nElegiste {accion_usuario}. La computadora eligió {accion_computadora}\n")
+            evaluar_juego(accion_usuario.lower(), accion_computadora.lower())
+        else:
+            print("Opción no válida. Por favor, elige una opción válida.")
 
 if __name__ == "__main__":
     main()
