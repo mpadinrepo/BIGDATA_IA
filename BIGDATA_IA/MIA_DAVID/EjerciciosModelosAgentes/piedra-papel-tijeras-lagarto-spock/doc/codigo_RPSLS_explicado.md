@@ -91,7 +91,7 @@ Este proyecto implementa el juego "Piedra, Papel, Tijeras, Lagarto, Spock" (RPSL
 
 ## Uso
 
-Para ejecutar el juego, simplemente ejecuta el script `rps_rpsls.py` y sigue las instrucciones en pantalla para seleccionar el tipo de juego y jugar.
+Para ejecutar el juego, simplemente ejecuta el script `04_RPSLS_Module.py` y sigue las instrucciones en pantalla para seleccionar el tipo de juego y jugar.
 
 ## Razonamiento y Consideraciones Adicionales
 
