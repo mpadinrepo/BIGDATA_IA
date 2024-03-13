@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:derby:/usr/share/hive/metastore_db;create=true</value>
+    <description>Configuracion do Metastore de Hive. Utilizase un ficheiro local usando a base de datos integrada Apache Derby</description>
+  </property>
+  <property>
+    <name>hive.execution.engine</name>
+    <value>mr</value>
+    <description>Configura Hive para utilizar o motor de execucion MapReduce</description>
+  </property>
+  <property>
+    <name>hive.server2.enable.doAs</name>
+    <value>false</value>
+    <description>Para simplifica-la configuracion, realiza todas as consultas como a conta de usuario/a coa que se executa hive en lugar de considerar usuarios/as individuais</description>
+  </property>
+  <property>
+    <name>hive.server2.active.passive.ha.enable</name>
+    <value>true</value>
+    <description>Activa a configuracion de alta dispoñibilidade para Thrift. O cliente beeline necesita esta configuracion para poder conectarse con Hive.</description>
+  </property>
+  <property>
+    <name>hive.server2.thrift.port</name>
+    <value>10000</value>
+    <description>Porto no que escoita o servidor Thrift</description>
+  </property>
+</configuration>
