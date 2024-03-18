@@ -22,3 +22,11 @@ rad.json
 TestResults.xml
 
 DockerCompose/mysql_data/mysql.sock
+
+
+# Ignorar archivos PDF
+*.pdf
+
+# Ignorar una carpeta específica
+BIGDATA_IA/BDA_RICARDO/Módulo BDA 2023-2024/UD1/Prácticas/DFS_LOCAL/practicas/
+
