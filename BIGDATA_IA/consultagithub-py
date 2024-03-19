@@ -1,0 +1,38 @@
+import requests
+
+def get_file_upload_time(repo_owner, repo_name, file_path):
+    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits?path={file_path}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        commits = response.json()
+        if len(commits) > 0:
+            upload_time = commits[0]['commit']['committer']['date']
+            return upload_time
+    return None
+
+# Datos del repositorio
+repo_owner = 'mpadinrepo'
+repo_name = 'BIGDATA_IA'
+
+# Lista de archivos
+files = [
+    "Algoritmos.rar",
+    "padinpresaDecisionTree.ipynb",
+    "padinpresaKNN.ipynb",
+    "padinpresaKmeansClustering.ipynb",
+    "padinpresaNaiveBayes.ipynb",
+    "padinpresaPCA.ipynb",
+    "padinpresaRandomForest.ipynb",
+    "padinpresaRedesNeuronalesArtficiialesANN.ipynb",
+    "padinpresaRegression.ipynb",
+    "padinpresasSVM.ipynb"
+]
+
+# Obtener la hora de subida de cada archivo
+for file_name in files:
+    file_path = f'BIGDATA_IA/ML_VANESA/Unidad2_Aprendizaje_Supervisada/Proxecto_UD2-20240205/Algoritmos/{file_name}'
+    upload_time = get_file_upload_time(repo_owner, repo_name, file_path)
+    if upload_time:
+        print(f"El archivo '{file_name}' fue subido el: {upload_time}")
+    else:
+        print(f"No se pudo obtener la hora de subida del archivo '{file_name}'.")
