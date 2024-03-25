@@ -1,0 +1,11 @@
+name: tutopencv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - opencv
+  - jupyter
+  - matplotlib
+  - dlib
+  - chromadb
