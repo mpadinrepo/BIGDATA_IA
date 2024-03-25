@@ -1,0 +1,284 @@
+Pregunta 1
+Incorrecto
+Puntuación: -0,20 sobre 1,00
+
+Texto de la pregunta:
+
+En una regresión lineal, el valor que tomará la recta en su corte con el eje vertical de coordenadas corresponderá con
+
+a. O sumatorio de los diversos coeficientes de x
+b. Coeficiente de x0
+c. Intercept
+
+Comentarios:
+Tu respuesta es incorrecta.
+La respuesta correcta es:
+
+Intercept
+
+Pregunta 2
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+La regresión logística tiene por objetivo la clasificación binaria
+Seleccione una
+
+Verdadero
+Falso
+
+Comentarios:
+La respuesta correcta es "Verdadero"
+
+Pregunta 3
+Incorrecto
+Puntuación: -0,20 sobre 1,00
+
+Texto de la pregunta:
+
+Si tenemos una matriz de confusión que devuelve los siguientes valores:
+
+[[ 2, 0, 0],
+
+[ 0, 0, 1],
+
+[ 1, 0, 2]]
+
+entonces podemos concluir que nuestro dataset está dividido en
+
+a. 3 clases
+b. 2 clases
+c. Desconocemos el número de clases target del dataset
+
+Comentarios:
+Tu respuesta es incorrecta.
+La respuesta correcta es:
+
+3 clases
+
+Pregunta 4
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+Son estrategias de manejo de datos categóricos:
+a. Escalado y normalización
+b. Borrado de registros
+c. Codificación con valores numéricos
+d. Relleno de valores desconocidos
+e. Borrado de columnas
+
+Comentarios:
+Tu respuesta es correcta.
+La respuesta correcta es:
+
+Codificación con valores numéricos
+
+Pregunta 5
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+Si creamos un modelo que tiene que clasificar entre perros y gatos, y de los ocho perros existentes identifica correctamente 5 de ellos entonces diremos que el valor de 5/8 corresponde con
+
+a. F1-score
+b. Accuracy
+c. Recall
+d. Precision
+
+Comentarios:
+Tu respuesta es correcta.
+La respuesta correcta es:
+
+Accuracy
+
+Pregunta 6
+Incorrecto
+Puntuación: -0,20 sobre 1,00
+
+Texto de la pregunta:
+
+El modelo SVM es un método que se emplea generalmente para
+
+a. Regresión
+b. Clasificación
+
+Comentarios:
+Tu respuesta es incorrecta.
+La respuesta correcta es:
+
+Clasificación
+
+Pregunta 7
+Incorrecto
+Puntuación: -0,20 sobre 1,00
+
+Texto de la pregunta:
+
+Son estrategias del manejo de valores nulos
+
+a. Borrado de columnas
+b. Relleno de valores desconocidos
+c. Borrado de registros
+d. Codificación con valores numéricos
+e. Escalado y normalización
+
+Comentarios:
+Tu respuesta es incorrecta.
+La respuesta correcta es:
+
+Relleno de valores desconocidos
+
+Pregunta 8
+Incorrecto
+Puntuación: -0,20 sobre 1,00
+
+Texto de la pregunta:
+
+Si queremos prevenir el overfitting, entonces
+
+a. Utilizaremos un dataset con muchos registros.
+b. Entrenaremos el modelo con el conjunto de testing.
+c. Utilizaremos un dataset con muchas variables (features).
+
+Comentarios:
+Tu respuesta es incorrecta.
+La respuesta correcta es:
+
+Utilizaremos un dataset con muchos registros.
+
+Pregunta 9
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+El resultado de un modelo de regresión lineal se corresponderá con una línea
+Seleccione una
+
+Verdadero
+Falso
+
+Comentarios:
+La respuesta correcta es "Verdadero"
+
+Pregunta 10
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+En un árbol de decisión, si utilizamos el índice GINI para evaluar sus resultados, buscamos siempre que este tenga
+
+a. El valor mínimo posible en cada nodo hoja
+b. El valor medio posible en cada nodo hoja
+c. El valor máximo posible en cada nodo hoja
+
+Comentarios:
+Tu respuesta es correcta.
+La respuesta correcta es:
+
+El valor mínimo posible en cada nodo hoja
+
+Pregunta 11
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+Los SVM buscan encontrar el hiperplano que tenga la distancia mínima con los puntos que pertenecen a diferentes categorías o clases
+
+Comentarios:
+Tu respuesta es correcta.
+
+Pregunta 12
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+El valor K del modelo KNN corresponde con
+
+a. Número de clases del resultado.
+b. Número de registros del dataset.
+c. Número de nodos próximos a tener en cuenta para clasificar.
+
+Comentarios:
+Tu respuesta es correcta.
+La respuesta correcta es:
+
+Número de nodos próximos a tener en cuenta para clasificar.
+
+Pregunta 13
+Incorrecto
+Puntuación: 0,00 sobre 1,00
+
+Texto de la pregunta:
+
+Los SVM son unos algoritmos de clasificación multiclase
+
+Seleccione una
+
+Verdadero
+Falso
+
+Comentarios:
+La respuesta correcta es "Falso"
+
+Pregunta 14
+Correcto
+Puntuación: 1,00 sobre 1,00
+
+Texto de la pregunta:
+
+Si queremos crear un diagrama con seaborn que compare por pares todas las características de nuestro dataset, entonces utilizaremos
+
+a. boxplot
+b. hist
+c. countplot
+d. pairplot
+
+Comentarios:
+Tu respuesta es correcta.
+La respuesta correcta es:
+
+pairplot
+
+Pregunta 15
+Parcialmente correcto
+Puntuación: 0,43 sobre 1,00
+
+Texto de la pregunta:
+
+Ordena las siguientes etapas de ML
+
+css
+
+Importación de datos
+División del dataset
+Preprocesado
+Creación del modelo
+Entrenamiento
+Realización de predicciones
+Evaluación del modelo
+
+Comentarios:
+
+Tu respuesta es parcialmente correcta.
+
+Aquí está el orden correcto para estos elementos:
+
+css
+
+Importación de datos
+Preprocesado
+División del dataset
+Creación del modelo
+Entrenamiento
+Evaluación del modelo
+Realización de predicciones
+
+¡Espero que esto te ayude! Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en preguntar.
