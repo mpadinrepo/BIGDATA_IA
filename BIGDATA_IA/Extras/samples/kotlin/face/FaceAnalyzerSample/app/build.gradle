@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+}
+
+android {
+    compileSdkVersion 33
+    buildToolsVersion "33.0.0"
+
+    defaultConfig {
+        applicationId "com.example.FaceAnalyzerSample"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            jniDebuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    namespace 'com.example.FaceAnalyzerSample'
+}
+
+dependencies {
+    implementation group: 'net.sourceforge.streamsupport', name: 'android-retrofuture', version: '1.7.4'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.azure.android:azure-core-http-httpurlconnection:1.0.0-beta.10'
+    implementation 'com.azure.android:azure-core-credential:1.0.0-beta.10'
+    implementation 'com.azure:azure-ai-vision-common-internal:0.15.1-beta.1'
+    implementation "androidx.activity:activity:1.6.1"
+    implementation "com.azure.ai:azure-ai-vision-common:0.16.1-beta.1"
+    implementation "com.azure.ai:azure-ai-vision-faceanalyzer:0.16.1-beta.1"
+}
