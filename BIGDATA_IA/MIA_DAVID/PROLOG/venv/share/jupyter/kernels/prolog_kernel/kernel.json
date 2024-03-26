@@ -1,0 +1,11 @@
+{
+    "argv": [
+        "L:\\REPOLOCAL\\BIGDATA_IA\\MIA_DAVID\\PROLOG\\venv\\Scripts\\python.exe",
+        "-m",
+        "prolog_kernel",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "Prolog",
+    "language": "prolog"
+}
