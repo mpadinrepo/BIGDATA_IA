@@ -1,0 +1,8 @@
+Exploración da capacidade de almacenamento (mediante comandos amósase o espazo dispoñible antes e despois)
+Xeración e carga no sistema HDFS dos datos de mostra grandes de abondo
+Ubicación e troceado das táboas no sistema HDFS (os ficheiros cargáronse co formato e estrutura correctos)
+Deseño dun plan de uso de datos (resólvense as consultas HIVE e obtense a nova táboa)
+Execución do plan de uso de datos (realizáronse as consultas pedidas e contestouse a se había nulos)
+O Informe detallado inclúe tódolos pasos realizados na tarefa
+O informe detallado describe a configuración do clúster Hadoop, como se xeraron e almacenaron os datos de mostra en HDFS, a exploración da capacidade de almacenamento
+O informe detallado describe o deseño do plan de uso de datos

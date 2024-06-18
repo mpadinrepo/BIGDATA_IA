@@ -1,0 +1,47 @@
+version: '3.8'
+# NOTRAS
+# DOKCER COMPOSE PARA ACCEDER A MONGO DESDE JUPYTER CON AUTENTICACION
+# NOTAS. SI FALLA IR UNO POR UNO EN EL DOCKER-COMPOSE, ES DECIR, PRIMERO LEVANTAR MONGO Y LUEGO JUPYTER
+# ASI   1)  docker-compose up -d mongodb  2) docker-compose up -d jupyterlab
+
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data:/data/db
+    environment:  # Definir variables de entorno para establecer el usuario y la contraseña
+      MONGO_INITDB_ROOT_USERNAME: root  # Nombre de usuario
+      MONGO_INITDB_ROOT_PASSWORD: abc123  # Contraseña
+    command: mongod --auth
+    networks:
+      - mongodb_network
+
+  jupyterlab:
+    image: jupyter/datascience-notebook
+    ports:
+      - 8888:8888
+    volumes:
+      - notebooks:/home/jovyan/work
+    networks:
+      - mongodb_network
+
+volumes:
+  mongodb_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /c/Users/XXXXXXXXXXXXXX/BIGDATA/data/db   # ruta local donde se guardará la base de datos
+  notebooks:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /c/Users/XXXXXXXXXX/BIGDATA/notebooks   # ruta local donde se guardará ficheros de jupyter
+
+networks:
+  mongodb_network:
+    driver: bridge
